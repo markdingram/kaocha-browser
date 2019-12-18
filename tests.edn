@@ -1,0 +1,12 @@
+#kaocha/v1 
+  {:bindings        {kaocha.type.cljs/*debug* true}
+   :capture-output? false
+
+   :tests [{:id :node-cljs
+            :type :kaocha.type/cljs}
+           {:id :browser-cljs
+            :type :kaocha.type/cljs
+            :cljs/compiler-options {;:closure-defines {kaocha.type.cljs/log-level "ALL"}
+                                    ;                  kaocha.type.cljs/root-log-level "ALL"
+                                    :verbose true}
+            :cljs/repl-env cljs.repl.browser/repl-env}]}

@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/clojure:openjdk-11-tools-deps-node-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - 'deps-{{ checksum "deps.edn" }}'
+      - run: mkdir -p test-results
+      - run: clojure -m kaocha.runner
+      - store_test_results:
+          path: test-results
+      - save_cache:
+          key: 'deps-{{checksum "deps.edn"}}'
+          paths:
+            - ~/.m2
+            - ~/.cljs/.aot_cache

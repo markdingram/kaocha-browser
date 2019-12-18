@@ -1,0 +1,628 @@
+Analyzing test/browser/main_test.cljs
+Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/test.cljs
+Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/string.cljs
+Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/pprint.cljs
+Analyzing file:/home/mark/.ghq/github.com/markdingram/kaocha-browser/src/browser/main.cljs
+[#:cljs{:compiler-options {:output-dir out, :closure-warnings {:check-types :off, :check-variables :off}, :closure-defines {kaocha.type.cljs.log_level DEBUG, kaocha.type.cljs.root_log_level DEBUG}, :ups-libs nil, :cache-analysis true, :closure-module-roots [], :optimizations :none, :ups-foreign-libs [], :verbose true, :aot-cache false, :preloads [process.env], :ignore-js-module-exts [.css], :preamble [cljs/imul.js], :ups-externs nil, :opts-cache cljsc_opts.edn, :source-map true, :cache-analysis-format :transit, :emit-constants nil}}
+EVAL:  (require (quote kaocha.cljs.websocket-client) (quote kaocha.cljs.run))
+EVAL:  :require-websocket-client-done8756
+:cljs/err -> {:val "Options passed to ClojureScript compiler: {:output-dir \"out\", :closure-warnings {:check-types :off, :check-variables :off}, :closure-defines {\"kaocha.type.cljs.log_level\" \"DEBUG\", \"kaocha.type.cljs.root_log_level\" \"DEBUG\"}, :ups-libs nil, :cache-analysis true, :closure-module-roots [], :optimizations :none, :ups-foreign-libs [], :verbose true, :aot-cache false, :preloads [process.env clojure.browser.repl.preload process.env clojure.browser.repl.preload], :ignore-js-module-exts [\".css\"], :preamble [\"cljs/imul.js\" \"cljs/imul.js\"], :browser-repl true, :ups-externs nil, :opts-cache \"brepl_opts.edn\", :source-map true, :cache-analysis-format :transit, :emit-constants nil}\n", :type :cljs/err}
+Options passed to ClojureScript compiler: {:output-dir "out", :closure-warnings {:check-types :off, :check-variables :off}, :closure-defines {"kaocha.type.cljs.log_level" "DEBUG", "kaocha.type.cljs.root_log_level" "DEBUG"}, :ups-libs nil, :cache-analysis true, :closure-module-roots [], :optimizations :none, :ups-foreign-libs [], :verbose true, :aot-cache false, :preloads [process.env clojure.browser.repl.preload process.env clojure.browser.repl.preload], :ignore-js-module-exts [".css"], :preamble ["cljs/imul.js" "cljs/imul.js"], :browser-repl true, :ups-externs nil, :opts-cache "brepl_opts.edn", :source-map true, :cache-analysis-format :transit, :emit-constants nil}
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/core.cljs to out/cljs/core.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/core.cljs to out/cljs/core.cljs
+
+:cljs/err -> {:val "Compiling out/cljs/core.cljs to out/cljs/core.js\n", :type :cljs/err}
+Compiling out/cljs/core.cljs to out/cljs/core.js
+
+:cljs/err -> {:val "Using cached cljs.core out/cljs/core.cljs\n", :type :cljs/err}
+Using cached cljs.core out/cljs/core.cljs
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/event.cljs to out/clojure/browser/event.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/event.cljs to out/clojure/browser/event.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/browser/event.cljs to out/clojure/browser/event.js\n", :type :cljs/err}
+Compiling out/clojure/browser/event.cljs to out/clojure/browser/event.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/net.cljs to out/clojure/browser/net.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/net.cljs to out/clojure/browser/net.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/browser/net.cljs to out/clojure/browser/net.js\n", :type :cljs/err}
+Compiling out/clojure/browser/net.cljs to out/clojure/browser/net.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/string.cljs to out/clojure/string.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/string.cljs to out/clojure/string.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/string.cljs to out/clojure/string.js\n", :type :cljs/err}
+Compiling out/clojure/string.cljs to out/clojure/string.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/walk.cljs to out/clojure/walk.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/walk.cljs to out/clojure/walk.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/walk.cljs to out/clojure/walk.js\n", :type :cljs/err}
+Compiling out/clojure/walk.cljs to out/clojure/walk.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/spec/gen/alpha.cljs to out/cljs/spec/gen/alpha.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/spec/gen/alpha.cljs to out/cljs/spec/gen/alpha.cljs
+
+:cljs/err -> {:val "Compiling out/cljs/spec/gen/alpha.cljs to out/cljs/spec/gen/alpha.js\n", :type :cljs/err}
+Compiling out/cljs/spec/gen/alpha.cljs to out/cljs/spec/gen/alpha.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/spec/alpha.cljs to out/cljs/spec/alpha.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/spec/alpha.cljs to out/cljs/spec/alpha.cljs
+
+:cljs/err -> {:val "Compiling out/cljs/spec/alpha.cljs to out/cljs/spec/alpha.js\n", :type :cljs/err}
+Compiling out/cljs/spec/alpha.cljs to out/cljs/spec/alpha.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/repl.cljs to out/cljs/repl.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/repl.cljs to out/cljs/repl.cljs
+
+:cljs/err -> {:val "Compiling out/cljs/repl.cljs to out/cljs/repl.js\n", :type :cljs/err}
+Compiling out/cljs/repl.cljs to out/cljs/repl.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/repl.cljs to out/clojure/browser/repl.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/repl.cljs to out/clojure/browser/repl.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/browser/repl.cljs to out/clojure/browser/repl.js\n", :type :cljs/err}
+Compiling out/clojure/browser/repl.cljs to out/clojure/browser/repl.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/repl/preload.cljs to out/clojure/browser/repl/preload.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/browser/repl/preload.cljs to out/clojure/browser/repl/preload.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/browser/repl/preload.cljs to out/clojure/browser/repl/preload.js\n", :type :cljs/err}
+Compiling out/clojure/browser/repl/preload.cljs to out/clojure/browser/repl/preload.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/process/env.cljs to out/process/env.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/process/env.cljs to out/process/env.cljs
+
+:cljs/err -> {:val "Compiling out/process/env.cljs to out/process/env.js\n", :type :cljs/err}
+Compiling out/process/env.cljs to out/process/env.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/base.js to out/goog/base.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/base.js to out/goog/base.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/error.js to out/goog/debug/error.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/error.js to out/goog/debug/error.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/nodetype.js to out/goog/dom/nodetype.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/nodetype.js to out/goog/dom/nodetype.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/string.js to out/goog/string/string.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/string.js to out/goog/string/string.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/asserts/asserts.js to out/goog/asserts/asserts.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/asserts/asserts.js to out/goog/asserts/asserts.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/array/array.js to out/goog/array/array.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/array/array.js to out/goog/array/array.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/util.js to out/goog/labs/useragent/util.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/util.js to out/goog/labs/useragent/util.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/object/object.js to out/goog/object/object.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/object/object.js to out/goog/object/object.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/browser.js to out/goog/labs/useragent/browser.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/browser.js to out/goog/labs/useragent/browser.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/engine.js to out/goog/labs/useragent/engine.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/engine.js to out/goog/labs/useragent/engine.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/platform.js to out/goog/labs/useragent/platform.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/labs/useragent/platform.js to out/goog/labs/useragent/platform.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/reflect/reflect.js to out/goog/reflect/reflect.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/reflect/reflect.js to out/goog/reflect/reflect.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/useragent/useragent.js to out/goog/useragent/useragent.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/useragent/useragent.js to out/goog/useragent/useragent.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/browserfeature.js to out/goog/dom/browserfeature.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/browserfeature.js to out/goog/dom/browserfeature.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/htmlelement.js to out/goog/dom/htmlelement.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/htmlelement.js to out/goog/dom/htmlelement.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/tagname.js to out/goog/dom/tagname.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/tagname.js to out/goog/dom/tagname.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/asserts.js to out/goog/dom/asserts.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/asserts.js to out/goog/dom/asserts.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/tags.js to out/goog/dom/tags.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/tags.js to out/goog/dom/tags.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/typedstring.js to out/goog/string/typedstring.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/typedstring.js to out/goog/string/typedstring.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/const.js to out/goog/string/const.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/const.js to out/goog/string/const.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safescript.js to out/goog/html/safescript.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safescript.js to out/goog/html/safescript.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/fs/url.js to out/goog/fs/url.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/fs/url.js to out/goog/fs/url.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/i18n/bidi.js to out/goog/i18n/bidi.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/i18n/bidi.js to out/goog/i18n/bidi.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/trustedresourceurl.js to out/goog/html/trustedresourceurl.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/trustedresourceurl.js to out/goog/html/trustedresourceurl.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safeurl.js to out/goog/html/safeurl.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safeurl.js to out/goog/html/safeurl.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safestyle.js to out/goog/html/safestyle.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safestyle.js to out/goog/html/safestyle.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safestylesheet.js to out/goog/html/safestylesheet.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safestylesheet.js to out/goog/html/safestylesheet.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safehtml.js to out/goog/html/safehtml.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/safehtml.js to out/goog/html/safehtml.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/safe.js to out/goog/dom/safe.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/safe.js to out/goog/dom/safe.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/uncheckedconversions.js to out/goog/html/uncheckedconversions.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/uncheckedconversions.js to out/goog/html/uncheckedconversions.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/math.js to out/goog/math/math.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/math.js to out/goog/math/math.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/coordinate.js to out/goog/math/coordinate.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/coordinate.js to out/goog/math/coordinate.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/size.js to out/goog/math/size.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/size.js to out/goog/math/size.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/dom.js to out/goog/dom/dom.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/dom.js to out/goog/dom/dom.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/useragent/product.js to out/goog/useragent/product.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/useragent/product.js to out/goog/useragent/product.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/json/json.js to out/goog/json/json.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/json/json.js to out/goog/json/json.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/structs/structs.js to out/goog/structs/structs.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/structs/structs.js to out/goog/structs/structs.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/functions/functions.js to out/goog/functions/functions.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/functions/functions.js to out/goog/functions/functions.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/iter/iter.js to out/goog/iter/iter.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/iter/iter.js to out/goog/iter/iter.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/structs/map.js to out/goog/structs/map.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/structs/map.js to out/goog/structs/map.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/uri/utils.js to out/goog/uri/utils.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/uri/utils.js to out/goog/uri/utils.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/uri/uri.js to out/goog/uri/uri.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/uri/uri.js to out/goog/uri/uri.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/integer.js to out/goog/math/integer.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/integer.js to out/goog/math/integer.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/stringbuffer.js to out/goog/string/stringbuffer.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/stringbuffer.js to out/goog/string/stringbuffer.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/long.js to out/goog/math/long.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/long.js to out/goog/math/long.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/errorcontext.js to out/goog/debug/errorcontext.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/errorcontext.js to out/goog/debug/errorcontext.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/debug.js to out/goog/debug/debug.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/debug.js to out/goog/debug/debug.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/logrecord.js to out/goog/debug/logrecord.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/logrecord.js to out/goog/debug/logrecord.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/logbuffer.js to out/goog/debug/logbuffer.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/logbuffer.js to out/goog/debug/logbuffer.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/logger.js to out/goog/debug/logger.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/logger.js to out/goog/debug/logger.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/log/log.js to out/goog/log/log.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/log/log.js to out/goog/log/log.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/xpc.js to out/goog/net/xpc/xpc.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/xpc.js to out/goog/net/xpc/xpc.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/promise/thenable.js to out/goog/promise/thenable.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/promise/thenable.js to out/goog/promise/thenable.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/freelist.js to out/goog/async/freelist.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/freelist.js to out/goog/async/freelist.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/workqueue.js to out/goog/async/workqueue.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/workqueue.js to out/goog/async/workqueue.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/entrypointregistry.js to out/goog/debug/entrypointregistry.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/entrypointregistry.js to out/goog/debug/entrypointregistry.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/nexttick.js to out/goog/async/nexttick.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/nexttick.js to out/goog/async/nexttick.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/run.js to out/goog/async/run.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/run.js to out/goog/async/run.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/promise/resolver.js to out/goog/promise/resolver.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/promise/resolver.js to out/goog/promise/resolver.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/promise/promise.js to out/goog/promise/promise.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/promise/promise.js to out/goog/promise/promise.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/disposable/idisposable.js to out/goog/disposable/idisposable.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/disposable/idisposable.js to out/goog/disposable/idisposable.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/disposable/disposable.js to out/goog/disposable/disposable.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/disposable/disposable.js to out/goog/disposable/disposable.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/browserfeature.js to out/goog/events/browserfeature.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/browserfeature.js to out/goog/events/browserfeature.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventid.js to out/goog/events/eventid.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventid.js to out/goog/events/eventid.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/event.js to out/goog/events/event.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/event.js to out/goog/events/event.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventtype.js to out/goog/events/eventtype.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventtype.js to out/goog/events/eventtype.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/browserevent.js to out/goog/events/browserevent.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/browserevent.js to out/goog/events/browserevent.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/listenable.js to out/goog/events/listenable.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/listenable.js to out/goog/events/listenable.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/listener.js to out/goog/events/listener.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/listener.js to out/goog/events/listener.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/listenermap.js to out/goog/events/listenermap.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/listenermap.js to out/goog/events/listenermap.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/events.js to out/goog/events/events.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/events.js to out/goog/events/events.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventtarget.js to out/goog/events/eventtarget.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventtarget.js to out/goog/events/eventtarget.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/timer/timer.js to out/goog/timer/timer.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/timer/timer.js to out/goog/timer/timer.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/json/hybrid.js to out/goog/json/hybrid.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/json/hybrid.js to out/goog/json/hybrid.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/errorcode.js to out/goog/net/errorcode.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/errorcode.js to out/goog/net/errorcode.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/eventtype.js to out/goog/net/eventtype.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/eventtype.js to out/goog/net/eventtype.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/httpstatus.js to out/goog/net/httpstatus.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/httpstatus.js to out/goog/net/httpstatus.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xhrlike.js to out/goog/net/xhrlike.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xhrlike.js to out/goog/net/xhrlike.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xmlhttpfactory.js to out/goog/net/xmlhttpfactory.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xmlhttpfactory.js to out/goog/net/xmlhttpfactory.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/wrapperxmlhttpfactory.js to out/goog/net/wrapperxmlhttpfactory.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/wrapperxmlhttpfactory.js to out/goog/net/wrapperxmlhttpfactory.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xmlhttp.js to out/goog/net/xmlhttp.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xmlhttp.js to out/goog/net/xmlhttp.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xhrio.js to out/goog/net/xhrio.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xhrio.js to out/goog/net/xhrio.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library-third-party/0.0-20170809-b9c14c6b/google-closure-library-third-party-0.0-20170809-b9c14c6b.jar!/goog/mochikit/async/deferred.js to out/goog/mochikit/async/deferred.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library-third-party/0.0-20170809-b9c14c6b/google-closure-library-third-party-0.0-20170809-b9c14c6b.jar!/goog/mochikit/async/deferred.js to out/goog/mochikit/async/deferred.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/delay.js to out/goog/async/delay.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/async/delay.js to out/goog/async/delay.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventhandler.js to out/goog/events/eventhandler.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/events/eventhandler.js to out/goog/events/eventhandler.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/messaging/messagechannel.js to out/goog/messaging/messagechannel.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/messaging/messagechannel.js to out/goog/messaging/messagechannel.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/messaging/abstractchannel.js to out/goog/messaging/abstractchannel.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/messaging/abstractchannel.js to out/goog/messaging/abstractchannel.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/crosspagechannelrole.js to out/goog/net/xpc/crosspagechannelrole.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/crosspagechannelrole.js to out/goog/net/xpc/crosspagechannelrole.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/transport.js to out/goog/net/xpc/transport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/transport.js to out/goog/net/xpc/transport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/directtransport.js to out/goog/net/xpc/directtransport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/directtransport.js to out/goog/net/xpc/directtransport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/frameelementmethodtransport.js to out/goog/net/xpc/frameelementmethodtransport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/frameelementmethodtransport.js to out/goog/net/xpc/frameelementmethodtransport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/iframepollingtransport.js to out/goog/net/xpc/iframepollingtransport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/iframepollingtransport.js to out/goog/net/xpc/iframepollingtransport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/iframerelaytransport.js to out/goog/net/xpc/iframerelaytransport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/iframerelaytransport.js to out/goog/net/xpc/iframerelaytransport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/nativemessagingtransport.js to out/goog/net/xpc/nativemessagingtransport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/nativemessagingtransport.js to out/goog/net/xpc/nativemessagingtransport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/nixtransport.js to out/goog/net/xpc/nixtransport.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/nixtransport.js to out/goog/net/xpc/nixtransport.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/crosspagechannel.js to out/goog/net/xpc/crosspagechannel.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/xpc/crosspagechannel.js to out/goog/net/xpc/crosspagechannel.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/websocket.js to out/goog/net/websocket.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/websocket.js to out/goog/net/websocket.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/stringformat.js to out/goog/string/stringformat.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/string/stringformat.js to out/goog/string/stringformat.js
+
+:cljs/err -> {:val "Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket_client.cljs\n", :type :cljs/err}
+Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket_client.cljs
+
+:cljs/err -> {:val "Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/cognitect/transit.cljs\n", :type :cljs/err}
+Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/cognitect/transit.cljs
+
+:cljs/err -> {:val "Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket.cljs\n", :type :cljs/err}
+Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket.cljs
+
+:cljs/err -> {:val "Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/type/cljs.cljs\n", :type :cljs/err}
+Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/type/cljs.cljs
+
+:cljs/err -> {:val "Analyzing jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi.cljs\n", :type :cljs/err}
+Analyzing jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi.cljs
+
+:cljs/err -> {:val "Analyzing jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi/console.cljs\n", :type :cljs/err}
+Analyzing jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi/console.cljs
+
+:cljs/err -> {:val "Analyzing jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/print.cljs\n", :type :cljs/err}
+Analyzing jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/print.cljs
+
+:cljs/err -> {:val "Analyzing jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/macro.cljc\n", :type :cljs/err}
+Analyzing jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/macro.cljc
+
+:cljs/err -> {:val "Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/data.cljs\n", :type :cljs/err}
+Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/data.cljs
+
+:cljs/err -> {:val "Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/set.cljs\n", :type :cljs/err}
+Analyzing jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/set.cljs
+
+:cljs/err -> {:val "Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/run.cljs\n", :type :cljs/err}
+Analyzing file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/run.cljs
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/pprint.cljs to out/cljs/pprint.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/pprint.cljs to out/cljs/pprint.cljs
+
+:cljs/err -> {:val "Compiling out/cljs/pprint.cljs to out/cljs/pprint.js\n", :type :cljs/err}
+Compiling out/cljs/pprint.cljs to out/cljs/pprint.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/test.cljs to out/cljs/test.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/cljs/test.cljs to out/cljs/test.cljs
+
+:cljs/err -> {:val "Compiling out/cljs/test.cljs to out/cljs/test.js\n", :type :cljs/err}
+Compiling out/cljs/test.cljs to out/cljs/test.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/set.cljs to out/clojure/set.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/set.cljs to out/clojure/set.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/set.cljs to out/clojure/set.js\n", :type :cljs/err}
+Compiling out/clojure/set.cljs to out/clojure/set.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/data.cljs to out/clojure/data.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/clojurescript/1.10.597/clojurescript-1.10.597.jar!/clojure/data.cljs to out/clojure/data.cljs
+
+:cljs/err -> {:val "Compiling out/clojure/data.cljs to out/clojure/data.js\n", :type :cljs/err}
+Compiling out/clojure/data.cljs to out/clojure/data.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/macro.cljc to out/pjstadig/macro.cljc\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/macro.cljc to out/pjstadig/macro.cljc
+
+:cljs/err -> {:val "Compiling out/pjstadig/macro.cljc to out/pjstadig/macro.js\n", :type :cljs/err}
+Compiling out/pjstadig/macro.cljc to out/pjstadig/macro.js
+
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket.cljs to out/kaocha/cljs/websocket.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket.cljs to out/kaocha/cljs/websocket.js
+
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/cognitect/transit.cljs to out/kaocha/cljs/cognitect/transit.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/cognitect/transit.cljs to out/kaocha/cljs/cognitect/transit.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi.cljs to out/lambdaisland/glogi.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi.cljs to out/lambdaisland/glogi.cljs
+
+:cljs/err -> {:val "Compiling out/lambdaisland/glogi.cljs to out/lambdaisland/glogi.js\n", :type :cljs/err}
+Compiling out/lambdaisland/glogi.cljs to out/lambdaisland/glogi.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi/console.cljs to out/lambdaisland/glogi/console.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/lambdaisland/glogi/0.0-25/glogi-0.0-25.jar!/lambdaisland/glogi/console.cljs to out/lambdaisland/glogi/console.cljs
+
+:cljs/err -> {:val "Compiling out/lambdaisland/glogi/console.cljs to out/lambdaisland/glogi/console.js\n", :type :cljs/err}
+Compiling out/lambdaisland/glogi/console.cljs to out/lambdaisland/glogi/console.js
+
+:cljs/err -> {:val "WARNING: Use of undeclared Var goog.debug.LogBuffer/CAPACITY at line 45 out/lambdaisland/glogi/console.cljs\n", :type :cljs/err}
+WARNING: Use of undeclared Var goog.debug.LogBuffer/CAPACITY at line 45 out/lambdaisland/glogi/console.cljs
+
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/type/cljs.cljs to out/kaocha/type/cljs.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/type/cljs.cljs to out/kaocha/type/cljs.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/print.cljs to out/pjstadig/print.cljs\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/pjstadig/humane-test-output/0.9.0/humane-test-output-0.9.0.jar!/pjstadig/print.cljs to out/pjstadig/print.cljs
+
+:cljs/err -> {:val "Compiling out/pjstadig/print.cljs to out/pjstadig/print.js\n", :type :cljs/err}
+Compiling out/pjstadig/print.cljs to out/pjstadig/print.js
+
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket_client.cljs to out/kaocha/cljs/websocket_client.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket_client.cljs to out/kaocha/cljs/websocket_client.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/relativetimeprovider.js to out/goog/debug/relativetimeprovider.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/relativetimeprovider.js to out/goog/debug/relativetimeprovider.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/formatter.js to out/goog/debug/formatter.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/formatter.js to out/goog/debug/formatter.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/console.js to out/goog/debug/console.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/console.js to out/goog/debug/console.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/errorcode.js to out/goog/storage/mechanism/errorcode.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/errorcode.js to out/goog/storage/mechanism/errorcode.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/mechanism.js to out/goog/storage/mechanism/mechanism.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/mechanism.js to out/goog/storage/mechanism/mechanism.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/iterablemechanism.js to out/goog/storage/mechanism/iterablemechanism.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/iterablemechanism.js to out/goog/storage/mechanism/iterablemechanism.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/html5webstorage.js to out/goog/storage/mechanism/html5webstorage.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/html5webstorage.js to out/goog/storage/mechanism/html5webstorage.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/html5sessionstorage.js to out/goog/storage/mechanism/html5sessionstorage.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/html5sessionstorage.js to out/goog/storage/mechanism/html5sessionstorage.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/jsloader.js to out/goog/net/jsloader.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/net/jsloader.js to out/goog/net/jsloader.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/legacyconversions.js to out/goog/html/legacyconversions.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/html/legacyconversions.js to out/goog/html/legacyconversions.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/html5localstorage.js to out/goog/storage/mechanism/html5localstorage.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/html5localstorage.js to out/goog/storage/mechanism/html5localstorage.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/ieuserdata.js to out/goog/storage/mechanism/ieuserdata.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/ieuserdata.js to out/goog/storage/mechanism/ieuserdata.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/prefixedmechanism.js to out/goog/storage/mechanism/prefixedmechanism.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/prefixedmechanism.js to out/goog/storage/mechanism/prefixedmechanism.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/mechanismfactory.js to out/goog/storage/mechanism/mechanismfactory.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/storage/mechanism/mechanismfactory.js to out/goog/storage/mechanism/mechanismfactory.js
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket.cljs to out/kaocha/cljs/websocket.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket.cljs to out/kaocha/cljs/websocket.cljs
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/util.js to out/com/cognitect/transit/util.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/util.js to out/com/cognitect/transit/util.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/eq.js to out/com/cognitect/transit/eq.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/eq.js to out/com/cognitect/transit/eq.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/types.js to out/com/cognitect/transit/types.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/types.js to out/com/cognitect/transit/types.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/delimiters.js to out/com/cognitect/transit/delimiters.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/delimiters.js to out/com/cognitect/transit/delimiters.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/caching.js to out/com/cognitect/transit/caching.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/caching.js to out/com/cognitect/transit/caching.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/impl/decoder.js to out/com/cognitect/transit/impl/decoder.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/impl/decoder.js to out/com/cognitect/transit/impl/decoder.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/impl/reader.js to out/com/cognitect/transit/impl/reader.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/impl/reader.js to out/com/cognitect/transit/impl/reader.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/handlers.js to out/com/cognitect/transit/handlers.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/handlers.js to out/com/cognitect/transit/handlers.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/impl/writer.js to out/com/cognitect/transit/impl/writer.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit/impl/writer.js to out/com/cognitect/transit/impl/writer.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit.js to out/com/cognitect/transit.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/com/cognitect/transit-js/0.8.861/transit-js-0.8.861.jar!/com/cognitect/transit.js to out/com/cognitect/transit.js
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/cognitect/transit.cljs to out/kaocha/cljs/cognitect/transit.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/cognitect/transit.cljs to out/kaocha/cljs/cognitect/transit.cljs
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/structs/circularbuffer.js to out/goog/structs/circularbuffer.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/structs/circularbuffer.js to out/goog/structs/circularbuffer.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/debugwindow.js to out/goog/debug/debugwindow.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/debugwindow.js to out/goog/debug/debugwindow.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/fancywindow.js to out/goog/debug/fancywindow.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/fancywindow.js to out/goog/debug/fancywindow.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/vendor.js to out/goog/dom/vendor.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/dom/vendor.js to out/goog/dom/vendor.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/box.js to out/goog/math/box.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/box.js to out/goog/math/box.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/irect.js to out/goog/math/irect.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/irect.js to out/goog/math/irect.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/rect.js to out/goog/math/rect.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/math/rect.js to out/goog/math/rect.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/style/style.js to out/goog/style/style.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/style/style.js to out/goog/style/style.js
+
+:cljs/err -> {:val "Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/divconsole.js to out/goog/debug/divconsole.js\n", :type :cljs/err}
+Copying jar:file:/home/mark/.m2/repository/org/clojure/google-closure-library/0.0-20170809-b9c14c6b/google-closure-library-0.0-20170809-b9c14c6b.jar!/goog/debug/divconsole.js to out/goog/debug/divconsole.js
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/type/cljs.cljs to out/kaocha/type/cljs.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/type/cljs.cljs to out/kaocha/type/cljs.cljs
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket_client.cljs to out/kaocha/cljs/websocket_client.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/websocket_client.cljs to out/kaocha/cljs/websocket_client.cljs
+
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/run.cljs to out/kaocha/cljs/run.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/run.cljs to out/kaocha/cljs/run.js
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/run.cljs to out/kaocha/cljs/run.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/lambdaisland/kaocha-cljs/src/kaocha/cljs/run.cljs to out/kaocha/cljs/run.cljs
+
+:cljs/ret -> {:val "nil", :ns "cljs.user", :ms 3904, :form "(require (quote kaocha.cljs.websocket-client) (quote kaocha.cljs.run))", :type :cljs/ret}
+:cljs/ret -> {:val ":require-websocket-client-done8756", :ns "cljs.user", :ms 38, :form ":require-websocket-client-done8756", :type :cljs/ret}
+:kaocha.cljs.websocket-server/connect -> {:type :kaocha.cljs.websocket-server/connect, :client #object[org.httpkit.server.AsyncChannel 0x7ae2f5b6 "/0:0:0:0:0:0:0:1:9753<->/0:0:0:0:0:0:0:1:54538"]}
+:kaocha.cljs.websocket-client/connected -> {:type :kaocha.cljs.websocket-client/connected, :browser? true}
+(EVAL:  (require (quote browser.main-test))
+EVAL:  ((fn wait-for-symbol [] (if (exists? browser.main-test) (kaocha.cljs.websocket-client/send! {:symbol (quote browser.main-test), :type :cljs/exists}) (js/setTimeout wait-for-symbol 50))))
+EVAL:  :require-ns-done12177
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/markdingram/kaocha-browser/src/browser/main.cljs to out/browser/main.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/markdingram/kaocha-browser/src/browser/main.cljs to out/browser/main.js
+
+:cljs/err -> {:val "Compiling /home/mark/.ghq/github.com/markdingram/kaocha-browser/test/browser/main_test.cljs to out/browser/main_test.js\n", :type :cljs/err}
+Compiling /home/mark/.ghq/github.com/markdingram/kaocha-browser/test/browser/main_test.cljs to out/browser/main_test.js
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/markdingram/kaocha-browser/src/browser/main.cljs to out/browser/main.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/markdingram/kaocha-browser/src/browser/main.cljs to out/browser/main.cljs
+
+:cljs/err -> {:val "Copying file:/home/mark/.ghq/github.com/markdingram/kaocha-browser/test/browser/main_test.cljs to out/browser/main_test.cljs\n", :type :cljs/err}
+Copying file:/home/mark/.ghq/github.com/markdingram/kaocha-browser/test/browser/main_test.cljs to out/browser/main_test.cljs
+
+:cljs/ret -> {:val "nil", :ns "cljs.user", :ms 177, :form "(require (quote browser.main-test))", :type :cljs/ret}
+:cljs/ret -> {:val "23", :ns "cljs.user", :ms 29, :form "((fn wait-for-symbol [] (if (exists? browser.main-test) (kaocha.cljs.websocket-client/send! {:symbol (quote browser.main-test), :type :cljs/exists}) (js/setTimeout wait-for-symbol 50))))", :type :cljs/ret}
+:cljs/ret -> {:val ":require-ns-done12177", :ns "cljs.user", :ms 30, :form ":require-ns-done12177", :type :cljs/ret}
+:cljs/exists -> {:symbol browser.main-test, :type :cljs/exists}
+EVAL:  (kaocha.cljs.run/run-once-fixtures browser.main-test :before (fn [] (kaocha.cljs.websocket-client/send! {:type :kaocha.type.cljs/fixture-loaded, :fixture [(quote browser.main-test) :before]})))
+:kaocha.type.cljs/fixture-loaded -> {:type :kaocha.type.cljs/fixture-loaded, :fixture [browser.main-test :before]}
+EVAL:  (do (kaocha.cljs.run/run-test browser.main-test/test-sum) :browser.main-test/test-sum-done12191)
+:cljs/ret -> {:val "nil", :ns "cljs.user", :ms 37, :form "(kaocha.cljs.run/run-once-fixtures browser.main-test :before (fn [] (kaocha.cljs.websocket-client/send! {:type :kaocha.type.cljs/fixture-loaded, :fixture [(quote browser.main-test) :before]})))", :type :cljs/ret}
+:cljs.test/message -> {:type :cljs.test/message, :cljs.test/message {:type :begin-test-var, :var {:ns browser.main-test, :name test-sum, :file "/home/mark/.ghq/github.com/markdingram/kaocha-browser/test/browser/main_test.cljs", :end-column 18, :column 1, :line 6, :end-line 6, :arglists (), :doc nil, :test #object[com.cognitect.transit.impl.TaggedValueImpl 0x2d1dbf4f "com.cognitect.transit.impl.TaggedValueImpl@cff72caf"]}}, :cljs.test/testing-contexts ()}
+:cljs.test/message -> {:type :cljs.test/message, :cljs.test/message {:type :pass, :expected (= 2 (m/sum)), :actual (#object[com.cognitect.transit.impl.TaggedValueImpl 0x2f26634a "com.cognitect.transit.impl.TaggedValueImpl@32a9f976"] 2 2), :message nil}, :cljs.test/testing-contexts ()}
+.:cljs.test/message -> {:type :cljs.test/message, :cljs.test/message {:type :end-test-var, :var {:ns browser.main-test, :name test-sum, :file "/home/mark/.ghq/github.com/markdingram/kaocha-browser/test/browser/main_test.cljs", :end-column 18, :column 1, :line 6, :end-line 6, :arglists (), :doc nil, :test #object[com.cognitect.transit.impl.TaggedValueImpl 0x76aab1e3 "com.cognitect.transit.impl.TaggedValueImpl@cff72caf"]}}, :cljs.test/testing-contexts ()}
+:kaocha.cljs.run/test-finished -> {:type :kaocha.cljs.run/test-finished, :test browser.main-test/test-sum}
+:cljs/ret -> {:val ":browser.main-test/test-sum-done12191", :ns "cljs.user", :ms 62, :form "(do (kaocha.cljs.run/run-test browser.main-test/test-sum) :browser.main-test/test-sum-done12191)", :type :cljs/ret}
+EVAL:  (kaocha.cljs.run/run-once-fixtures browser.main-test :after (fn [] (kaocha.cljs.websocket-client/send! {:type :kaocha.type.cljs/fixture-loaded, :fixture [(quote browser.main-test) :after]})))
+:kaocha.type.cljs/fixture-loaded -> {:type :kaocha.type.cljs/fixture-loaded, :fixture [browser.main-test :after]}
+)EVAL:  (do (kaocha.cljs.websocket-client/disconnect!) :cljs/quit)
+:cljs/ret -> {:val "nil", :ns "cljs.user", :ms 54, :form "(kaocha.cljs.run/run-once-fixtures browser.main-test :after (fn [] (kaocha.cljs.websocket-client/send! {:type :kaocha.type.cljs/fixture-loaded, :fixture [(quote browser.main-test) :after]})))", :type :cljs/ret}
+:kaocha.cljs.websocket-server/disconnect -> {:type :kaocha.cljs.websocket-server/disconnect, :client #object[org.httpkit.server.AsyncChannel 0x7ae2f5b6 "/0:0:0:0:0:0:0:1:9753<->/0:0:0:0:0:0:0:1:54538"]}
+:kaocha.cljs.prepl/exit -> {:type :kaocha.cljs.prepl/exit}
+]EVAL:  :cljs/quit
+
+[32m1 tests, 1 assertions, 0 failures.[m
