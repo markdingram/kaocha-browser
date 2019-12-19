@@ -9,6 +9,7 @@ jobs:
           keys:
             - 'deps-{{ checksum "deps.edn" }}'
       - run: mkdir -p test-results
+      - run: sudo cp google-chrome-stable /usr/bin/google-chrome-stable
       - run: bin/kaocha :browser-cljs || bin/kaocha :browser-cljs
       - store_test_results:
           path: test-results
