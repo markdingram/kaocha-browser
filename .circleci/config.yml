@@ -12,6 +12,7 @@ jobs:
       - run: mkdir -p /tmp/chrome
       - run: /usr/bin/google-chrome --version > /tmp/chrome/version
       - run: sudo cp google-chrome-stable /usr/bin/google-chrome-stable
+      - run: xdg-settings set default-web-browser firefox.desktop
       - run: bin/kaocha :browser-cljs
       - store_test_results:
           path: test-results
