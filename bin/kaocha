@@ -1,2 +1,2 @@
 #!/bin/sh
-clojure -m kaocha.runner "$@"
+clojure -J-Xmx1024m -m kaocha.runner "$@"
