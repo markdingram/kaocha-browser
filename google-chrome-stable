@@ -48,5 +48,8 @@ exec > >(exec cat)
 exec 2> >(exec cat >&2)
 
 export CHROME_LOG_FILE="/tmp/chrome/chrome.log"
+
+echo "$@" > /tmp/chrome/args
+
 # Note: exec -a below is a bashism.
 exec -a "$0" "$HERE/chrome" --log-net-log=/tmp/chrome/net.json  --disable-extensions --disable-setuid-sandbox --no-sandbox --enable-logging --v=1 "$@"
