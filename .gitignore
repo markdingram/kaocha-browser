@@ -4,3 +4,5 @@ out/
 *.iml
 node_modules/
 .nrepl-port
+.repl-*/
+.cljs_node_repl/
