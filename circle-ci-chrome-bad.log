@@ -1,0 +1,393 @@
+[416:416:1219/200548.967641:VERBOSE1:chrome_crash_reporter_client.cc(187)] GetCollectStatsConsent(): settings_consent: 0 so returning that
+[416:416:1219/200548.967715:VERBOSE1:breakpad_linux.cc(2041)] Breakpad disabled
+[424:424:1219/200549.000051:VERBOSE1:content_main_runner_impl.cc(334)] Unable to load plugin internal-not-yet-present internal-not-yet-present: cannot open shared object file: No such file or directory
+[424:424:1219/200549.000250:VERBOSE1:chrome_content_client.cc(634)] Registering bundled Widevine 4.10.1610.0
+[424:424:1219/200549.001572:INFO:cpu_info.cc(53)] Available number of cores: 36
+[424:424:1219/200549.001592:VERBOSE1:zygote_main_linux.cc(217)] ZygoteMain: initializing 2 fork delegates
+[424:424:1219/200549.001691:VERBOSE1:nacl_fork_delegate_linux.cc(147)] NaClForkDelegate::Init()
+[424:424:1219/200549.004835:VERBOSE1:nacl_fork_delegate_linux.cc(147)] NaClForkDelegate::Init()
+[416:416:1219/200549.006084:VERBOSE1:machine_level_user_cloud_policy_controller.cc(116)] DM token = none
+[416:416:1219/200549.006099:VERBOSE1:machine_level_user_cloud_policy_controller.cc(117)] Enrollment token = 
+[416:416:1219/200549.006105:VERBOSE1:machine_level_user_cloud_policy_controller.cc(118)] Client ID = 1OCs0XOnrDPcD1pfnruRfNwIENU
+[416:447:1219/200549.135402:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[416:416:1219/200549.135948:VERBOSE1:webrtc_event_log_manager.cc(99)] WebRTC remote-bound event logging enabled.
+[416:416:1219/200549.136237:VERBOSE1:proxy_config_service_linux.cc(1286)] Obtained proxy settings from environment variables
+[416:416:1219/200549.136249:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x3fcd9d545080: set chrome proxy config service to 0x3fcd9d936c00
+[416:416:1219/200549.137388:VERBOSE1:chrome_content_client.cc(634)] Registering bundled Widevine 4.10.1610.0
+[416:416:1219/200549.146429:VERBOSE1:account_consistency_mode_manager.cc(175)] Dice migration completed.
+[416:416:1219/200549.147290:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(256)] MutablePO2TS::MutablePO2TS
+[416:416:1219/200549.147688:VERBOSE1:device_event_log_impl.cc(164)] [20:05:49.147] Bluetooth: EVENT: bluetooth_api.cc:73 BluetoothAPI: 0x3fcd9da08d40
+[416:416:1219/200549.147931:VERBOSE1:bluetooth_low_energy_event_router.cc(242)] Initializing BluetoothLowEnergyEventRouter.
+[416:416:1219/200549.148650:VERBOSE1:dns_sd_registry.cc(158)] RegisterDnsSdListener: _googlecast._tcp.local, registered: 0
+[416:416:1219/200549.148665:VERBOSE1:service_discovery_device_lister.cc(39)] DeviceListerStart: service_type: _googlecast._tcp.local
+[416:416:1219/200549.148673:VERBOSE1:dns_sd_device_lister.cc(52)] Started device lister for service type _googlecast._tcp.local
+[416:416:1219/200549.148682:VERBOSE1:service_discovery_device_lister.cc(45)] DiscoverNewDevices: service_type: _googlecast._tcp.local
+[416:416:1219/200549.148689:VERBOSE1:dns_sd_device_lister.cc(56)] Discovery new devices for service type _googlecast._tcp.local
+[416:416:1219/200549.148694:VERBOSE1:dns_sd_registry.cc(249)] DispatchApiEvent: service_type: _googlecast._tcp.local
+[416:461:1219/200549.153818:VERBOSE1:token_service_table.cc(153)] Loaded tokens: result = 3 ; number of tokens loaded = 0
+[416:461:1219/200549.156780:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[416:416:1219/200549.156827:VERBOSE1:proxy_config_service_linux.cc(1286)] Obtained proxy settings from environment variables
+[416:416:1219/200549.156844:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x3fcd9d544000: set chrome proxy config service to 0x3fcd9dab2000
+[416:416:1219/200549.158126:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(362)] MutablePO2TS::RefreshTokenIsAvailable
+[416:416:1219/200549.159406:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Cloud Print
+[416:416:1219/200549.159422:VERBOSE1:extension_service.cc(1236)] Component extension Cloud Print (mfehgcgbbipciphmccgaenjidiccnmng) installing/upgrading from '' to 0.1
+[416:416:1219/200549.159765:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Web Store
+[416:416:1219/200549.159775:VERBOSE1:extension_service.cc(1236)] Component extension Web Store (ahfgeienlihckogmohjhadlkjgocpleb) installing/upgrading from '' to 0.2
+[416:416:1219/200549.160053:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Google Hangouts
+[416:416:1219/200549.160062:VERBOSE1:extension_service.cc(1236)] Component extension Google Hangouts (nkeimhogjdpnpccoofpliimaahmaaome) installing/upgrading from '' to 1.3.14
+[416:416:1219/200549.160325:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Feedback
+[416:416:1219/200549.160334:VERBOSE1:extension_service.cc(1236)] Component extension Feedback (gfdkimpbcpahaombhbimeihdjnejgicl) installing/upgrading from '' to 1.0
+[416:416:1219/200549.160608:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Google Network Speech
+[416:416:1219/200549.160617:VERBOSE1:extension_service.cc(1236)] Component extension Google Network Speech (neajdppkdcdipfabeoofebfddakdcjhd) installing/upgrading from '' to 1.0
+[416:416:1219/200549.160878:VERBOSE1:extension_service.cc(1234)] AddComponentExtension CryptoTokenExtension
+[416:416:1219/200549.160887:VERBOSE1:extension_service.cc(1236)] Component extension CryptoTokenExtension (kmendfapggjehodndflmmgagdbamhnfd) installing/upgrading from '' to 0.9.74
+[416:416:1219/200549.161158:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Chrome PDF Viewer
+[416:416:1219/200549.161169:VERBOSE1:extension_service.cc(1236)] Component extension Chrome PDF Viewer (mhjfbmdgcfjbbpaeojofohoefgiehjai) installing/upgrading from '' to 1
+[416:429:1219/200549.161967:WARNING:external_pref_loader.cc(254)] You are using an old-style extension deployment method (external_extensions.json), which will soon be deprecated. (see http://developer.chrome.com/extensions/external_extensions.html)
+[416:416:1219/200549.161968:VERBOSE1:account_reconcilor.cc(260)] AccountReconcilor::AccountReconcilor
+[416:416:1219/200549.162004:VERBOSE1:account_reconcilor.cc(283)] AccountReconcilor::Initialize
+[416:416:1219/200549.162010:VERBOSE1:account_reconcilor.cc(323)] AccountReconcilor::RegisterWithContentSettings
+[416:416:1219/200549.162016:VERBOSE1:account_reconcilor.cc(344)] AccountReconcilor::RegisterWithIdentityManager
+[416:416:1219/200549.169836:VERBOSE1:bluez_dbus_manager.cc(189)] Bluetooth not supported.
+[416:416:1219/200549.170657:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(460)] MutablePO2TS::OnWebDataServiceRequestDone. Result type: 5
+[416:416:1219/200549.170704:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(520)] MutablePO2TS::LoadAllCredentialsIntoMemory; 0 Credential(s).
+[416:416:1219/200549.170722:VERBOSE1:account_reconcilor.cc(410)] AccountReconcilor::OnEndBatchOfRefreshTokenStateChanges. Reconcilor state: 0
+[416:416:1219/200549.170742:VERBOSE1:account_reconcilor.cc(504)] AccountReconcilor::StartReconcile: token service *not* ready yet.
+[416:416:1219/200549.170773:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[416:416:1219/200549.170780:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[416:416:1219/200549.171018:WARNING:load_error_reporter.cc(78)] Extension error: Package is invalid: 'CRX_HEADER_INVALID'.
+[416:449:1219/200549.171299:VERBOSE1:simple_index_file.cc(599)] Simple Cache Index is being restored from disk.
+[416:416:1219/200549.171425:WARNING:load_error_reporter.cc(78)] Extension error: Package is invalid: 'CRX_HEADER_INVALID'.
+[460:467:1219/200549.171459:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[460:467:1219/200549.171539:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[460:467:1219/200549.171545:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[460:467:1219/200549.171551:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[460:467:1219/200549.171556:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[460:467:1219/200549.171566:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[460:467:1219/200549.171571:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[460:467:1219/200549.171576:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[460:467:1219/200549.171581:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[460:467:1219/200549.171590:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[460:467:1219/200549.171648:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[460:467:1219/200549.171653:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[460:467:1219/200549.171658:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[460:467:1219/200549.171663:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[460:467:1219/200549.171668:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[460:467:1219/200549.171673:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[460:467:1219/200549.171678:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[460:467:1219/200549.171683:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[460:467:1219/200549.171688:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[460:467:1219/200549.171692:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[460:467:1219/200549.171697:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[460:467:1219/200549.171702:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[460:467:1219/200549.171707:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[460:467:1219/200549.171734:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[460:467:1219/200549.171739:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[460:467:1219/200549.171744:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[460:467:1219/200549.171752:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[460:467:1219/200549.171757:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[460:467:1219/200549.171762:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[460:467:1219/200549.171767:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[460:467:1219/200549.171772:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[460:467:1219/200549.171776:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[460:467:1219/200549.171781:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[460:467:1219/200549.171786:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[460:467:1219/200549.171791:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[460:467:1219/200549.171796:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[460:467:1219/200549.171812:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[460:467:1219/200549.171817:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[460:467:1219/200549.171824:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[460:467:1219/200549.171829:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[460:467:1219/200549.171834:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[460:467:1219/200549.171839:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[460:467:1219/200549.171844:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[460:467:1219/200549.171849:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[460:467:1219/200549.171857:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[460:467:1219/200549.171878:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[460:467:1219/200549.171883:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[460:467:1219/200549.171888:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[460:467:1219/200549.172446:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[460:467:1219/200549.172459:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[460:467:1219/200549.172464:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[460:467:1219/200549.172469:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[460:467:1219/200549.172474:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[460:467:1219/200549.172478:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[460:467:1219/200549.172483:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[460:467:1219/200549.172488:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[460:467:1219/200549.172492:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[460:467:1219/200549.172497:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[460:467:1219/200549.172501:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[460:467:1219/200549.172506:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[460:467:1219/200549.172511:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[460:467:1219/200549.172515:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[460:467:1219/200549.172520:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[460:467:1219/200549.172525:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[460:467:1219/200549.172530:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[460:467:1219/200549.172534:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[460:467:1219/200549.172539:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[460:467:1219/200549.172543:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[460:467:1219/200549.172548:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[460:467:1219/200549.172553:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[460:467:1219/200549.172557:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[460:467:1219/200549.172562:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[460:467:1219/200549.172567:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[460:467:1219/200549.172571:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[460:467:1219/200549.172576:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[460:467:1219/200549.172581:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[460:467:1219/200549.172585:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[460:467:1219/200549.172590:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[460:467:1219/200549.172595:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[460:467:1219/200549.172599:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[460:467:1219/200549.172604:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[460:467:1219/200549.172609:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[460:467:1219/200549.172613:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[460:467:1219/200549.172618:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[460:467:1219/200549.172627:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[460:467:1219/200549.172632:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[460:467:1219/200549.172636:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[460:467:1219/200549.172641:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[460:467:1219/200549.172646:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[460:467:1219/200549.172650:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[460:467:1219/200549.172655:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[460:467:1219/200549.172660:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[460:467:1219/200549.172664:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[460:467:1219/200549.172669:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[460:467:1219/200549.172676:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[460:467:1219/200549.172681:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[460:467:1219/200549.173043:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[460:467:1219/200549.173053:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[460:467:1219/200549.173058:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[460:467:1219/200549.173063:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[460:467:1219/200549.173068:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[460:467:1219/200549.173073:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[460:467:1219/200549.173077:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[460:467:1219/200549.173082:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[460:467:1219/200549.173087:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[460:467:1219/200549.173091:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[460:467:1219/200549.173096:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[460:467:1219/200549.173100:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[460:467:1219/200549.173105:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[460:467:1219/200549.173110:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[460:467:1219/200549.173117:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[460:467:1219/200549.173122:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[460:467:1219/200549.173127:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[460:467:1219/200549.173131:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[460:467:1219/200549.173136:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[460:467:1219/200549.173140:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[460:467:1219/200549.173145:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[460:467:1219/200549.173150:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[460:467:1219/200549.173155:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[460:467:1219/200549.173159:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[460:467:1219/200549.173164:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[460:467:1219/200549.173169:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[460:467:1219/200549.173173:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[460:467:1219/200549.173186:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[460:467:1219/200549.173190:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[460:467:1219/200549.173195:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[460:467:1219/200549.173200:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[460:467:1219/200549.173205:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[460:467:1219/200549.173209:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[460:467:1219/200549.173214:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[460:467:1219/200549.173219:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[460:467:1219/200549.173223:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[460:467:1219/200549.173228:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[460:467:1219/200549.173233:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[460:467:1219/200549.173237:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[460:467:1219/200549.173242:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[460:467:1219/200549.173247:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[460:467:1219/200549.173251:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[460:467:1219/200549.173256:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[460:467:1219/200549.173260:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[460:467:1219/200549.173265:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[460:467:1219/200549.173270:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[460:467:1219/200549.173275:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[460:467:1219/200549.173279:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[416:416:1219/200549.173894:WARNING:load_error_reporter.cc(78)] Extension error: Package is invalid: 'CRX_HEADER_INVALID'.
+[460:467:1219/200549.174210:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.google.com/service/update2/crx?os=linux&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=79.0.3945.88&lang=en-US&acceptformat=crx3&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Daapocclcgogkmnckokdopfmhonfmgoek%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dfelcaaldnbdncclmgdcncolpebgiejap%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dghbmnnjooekpmoecnnnilnnbdlolhkhi%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Daohghmighlieiainnegkcijnfilokake%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dapdfllckaahabafndbhieahigkjlhalf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dblpcfgokakmgnkcojhhkbfbldkacnbeo%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dpjkljhegncpnkpknbcohdijeoejaedia%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D-1%2526e%253D1
+[460:467:1219/200549.174388:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://redirector.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic
+[416:416:1219/200549.174554:WARNING:load_error_reporter.cc(78)] Extension error: Package is invalid: 'CRX_HEADER_INVALID'.
+[460:470:1219/200549.175140:VERBOSE1:simple_index_file.cc(599)] Simple Cache Index is being restored from disk.
+[416:416:1219/200549.179468:VERBOSE1:gaia_cookie_manager_service.cc(966)] GaiaCookieManagerService::ListAccounts
+[460:467:1219/200549.179642:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[416:477:1219/200549.180114:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[416:477:1219/200549.180171:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[416:429:1219/200549.180196:VERBOSE1:simple_index_file.cc(599)] Simple Cache Index is being restored from disk.
+[416:477:1219/200549.180235:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[416:477:1219/200549.180250:WARNING:property.cc(145)] DaemonVersion: GetAndBlock: failed.
+[416:477:1219/200549.180283:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[416:477:1219/200549.180317:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[487:487:1219/200549.200979:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[487:487:1219/200549.201164:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           gfdkimpbcpahaombhbimeihdjnejgicl
+  frame:                  0x1d40bdd221c8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: gfdkimpbcpahaombhbimeihdjnejgicl
+  effective context type: BLESSED_EXTENSION
+[487:487:1219/200549.201600:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[478:478:1219/200549.203444:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[495:495:1219/200549.203574:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[478:478:1219/200549.203626:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           nkeimhogjdpnpccoofpliimaahmaaome
+  frame:                  0x28b45e3021c8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: nkeimhogjdpnpccoofpliimaahmaaome
+  effective context type: BLESSED_EXTENSION
+[495:495:1219/200549.203707:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           neajdppkdcdipfabeoofebfddakdcjhd
+  frame:                  0x17183b8821c8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: neajdppkdcdipfabeoofebfddakdcjhd
+  effective context type: BLESSED_EXTENSION
+[487:487:1219/200549.204059:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[495:495:1219/200549.204135:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[478:478:1219/200549.204234:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[495:495:1219/200549.205813:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[478:478:1219/200549.206671:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[502:502:1219/200549.208593:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[502:502:1219/200549.208752:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           kmendfapggjehodndflmmgagdbamhnfd
+  frame:                  0x95edeaa21c8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: kmendfapggjehodndflmmgagdbamhnfd
+  effective context type: BLESSED_EXTENSION
+[502:502:1219/200549.209215:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[502:502:1219/200549.210910:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[458:458:1219/200549.254826:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[460:467:1219/200549.315710:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://r3---sn-p5qs7n7e.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=54.80.186.66&mm=28&mn=sn-p5qs7n7e&ms=nvh&mt=1576785866&mv=m&mvi=2&pl=14&shardbypass=yes
+[416:416:1219/200549.321227:VERBOSE1:gaia_cookie_manager_service.cc(811)] ListAccounts successful
+[416:416:1219/200549.321264:VERBOSE1:gaia_cookie_manager_service.cc(1001)] GaiaCookieManagerService::HandleNextRequest
+[416:416:1219/200549.321297:VERBOSE1:gaia_cookie_manager_service.cc(1017)] GaiaCookieManagerService::HandleNextRequest: no more
+[416:416:1219/200549.321316:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[416:416:1219/200549.321325:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[416:416:1219/200549.321401:VERBOSE1:account_reconcilor.cc(620)] AccountReconcilor::OnAccountsInCookieUpdated: CookieJar 0 accounts, Reconcilor's state is 1, Error was 
+[416:416:1219/200549.321414:VERBOSE1:account_reconcilor.cc(746)] AccountReconcilor::LoadValidAccountsFromTokenService: Chrome 0 accounts
+[416:416:1219/200549.321423:VERBOSE1:account_reconcilor.cc(763)] AccountReconcilor::FinishReconcile
+[416:416:1219/200549.321519:VERBOSE1:account_reconcilor.cc(900)] AccountReconcilor::CalculateIfReconcileIsDone: done
+[416:416:1219/200549.321533:VERBOSE1:account_consistency_mode_manager.cc(187)] Dice migration on next startup: 1
+[416:416:1219/200549.321546:VERBOSE1:account_reconcilor.cc(911)] AccountReconcilor::StartReconcileIfChromeAccountsChanged
+[460:467:1219/200549.336446:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.googleusercontent.com/crx/blobs/QgAAAC6zw0qH2DJtnXe8Z7rUJP1q2vfaFufYPJ7MMPEdkxYurQqLKfsqlETBqnGAQLjVuUqXAP5kzjisGuCNTfqCtcNWXHJuTNrtTwTfHV02dRyiAMZSmuXqm5VWwl1zMmIqqfa62Kc5n3rCxg/extension_0_10_0_0.crx
+[564:564:1219/200554.337434:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[416:416:1219/200559.162763:VERBOSE1:proxy_config_service_linux.cc(1286)] Obtained proxy settings from environment variables
+[416:416:1219/200559.162799:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x3fcd9de60000: set chrome proxy config service to 0x3fcd9de98900
+[460:467:1219/200559.163390:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[460:467:1219/200559.163411:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[460:467:1219/200559.163417:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[460:467:1219/200559.163422:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[460:467:1219/200559.163427:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[460:467:1219/200559.163432:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[460:467:1219/200559.163437:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[460:467:1219/200559.163442:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[460:467:1219/200559.163447:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[460:467:1219/200559.163452:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[460:467:1219/200559.163457:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[460:467:1219/200559.163462:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[460:467:1219/200559.163467:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[460:467:1219/200559.163476:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[460:467:1219/200559.163481:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[460:467:1219/200559.163486:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[460:467:1219/200559.163491:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[460:467:1219/200559.163496:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[460:467:1219/200559.163501:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[460:467:1219/200559.163506:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[460:467:1219/200559.163511:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[460:467:1219/200559.163518:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[460:467:1219/200559.163523:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[460:467:1219/200559.163528:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[460:467:1219/200559.163533:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[460:467:1219/200559.163538:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[460:467:1219/200559.163543:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[460:467:1219/200559.163548:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[460:467:1219/200559.163553:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[460:467:1219/200559.163558:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[460:467:1219/200559.163563:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[460:467:1219/200559.163568:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[460:467:1219/200559.163573:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[460:467:1219/200559.163578:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[460:467:1219/200559.163583:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[460:467:1219/200559.163588:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[460:467:1219/200559.163593:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[460:467:1219/200559.163605:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[460:467:1219/200559.163610:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[460:467:1219/200559.163614:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[460:467:1219/200559.163619:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[460:467:1219/200559.163624:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[460:467:1219/200559.163628:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[460:467:1219/200559.163633:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[460:467:1219/200559.163638:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[460:467:1219/200559.163643:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[460:467:1219/200559.163648:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[460:467:1219/200559.163653:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[460:467:1219/200559.163899:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb
+[460:467:1219/200559.164076:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+[487:487:1219/200604.213367:VERBOSE1:dispatcher.cc(539)] Num tracked contexts: 0
+[487:487:1219/200604.213969:VERBOSE1:script_context.cc(124)] Destroyed context for extension
+  extension id: gfdkimpbcpahaombhbimeihdjnejgicl
+  effective extension id: gfdkimpbcpahaombhbimeihdjnejgicl
+[487:487:1219/200604.214025:VERBOSE1:script_context.cc(124)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[478:478:1219/200604.217477:VERBOSE1:dispatcher.cc(539)] Num tracked contexts: 0
+[502:502:1219/200604.233034:VERBOSE1:dispatcher.cc(539)] Num tracked contexts: 0

@@ -39,6 +39,8 @@ export CHROME_VERSION_EXTRA="stable"
 # We don't want bug-buddy intercepting our crashes. http://crbug.com/24120
 export GNOME_DISABLE_CRASH_DIALOG=SET_BY_GOOGLE_CHROME
 
+env > /tmp/chrome-env.log
+
 # Sanitize std{in,out,err} because they'll be shared with untrusted child
 # processes (http://crbug.com/376567).
 exec < /dev/null

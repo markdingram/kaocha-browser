@@ -1,0 +1,1059 @@
+[1108:1108:1219/200913.484562:VERBOSE1:chrome_crash_reporter_client.cc(187)] GetCollectStatsConsent(): settings_consent: 0 so returning that
+[1108:1108:1219/200913.484631:VERBOSE1:breakpad_linux.cc(2041)] Breakpad disabled
+[1116:1116:1219/200913.514927:VERBOSE1:content_main_runner_impl.cc(334)] Unable to load plugin internal-not-yet-present internal-not-yet-present: cannot open shared object file: No such file or directory
+[1116:1116:1219/200913.515086:VERBOSE1:chrome_content_client.cc(634)] Registering bundled Widevine 4.10.1610.0
+[1116:1116:1219/200913.516401:INFO:cpu_info.cc(53)] Available number of cores: 36
+[1116:1116:1219/200913.516427:VERBOSE1:zygote_main_linux.cc(217)] ZygoteMain: initializing 2 fork delegates
+[1116:1116:1219/200913.516511:VERBOSE1:nacl_fork_delegate_linux.cc(147)] NaClForkDelegate::Init()
+[1116:1116:1219/200913.519163:VERBOSE1:nacl_fork_delegate_linux.cc(147)] NaClForkDelegate::Init()
+[1108:1108:1219/200913.520157:VERBOSE1:machine_level_user_cloud_policy_controller.cc(116)] DM token = none
+[1108:1108:1219/200913.520173:VERBOSE1:machine_level_user_cloud_policy_controller.cc(117)] Enrollment token = 
+[1108:1108:1219/200913.520179:VERBOSE1:machine_level_user_cloud_policy_controller.cc(118)] Client ID = 1OCs0XOnrDPcD1pfnruRfNwIENU
+[1108:1139:1219/200913.622218:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1108:1108:1219/200913.622773:VERBOSE1:webrtc_event_log_manager.cc(99)] WebRTC remote-bound event logging enabled.
+[1108:1108:1219/200913.622948:VERBOSE1:proxy_config_service_linux.cc(1286)] Obtained proxy settings from environment variables
+[1108:1108:1219/200913.622963:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x129d7b6c2dc0: set chrome proxy config service to 0x129d7baeac00
+[1108:1108:1219/200913.624113:VERBOSE1:chrome_content_client.cc(634)] Registering bundled Widevine 4.10.1610.0
+[1108:1108:1219/200913.634334:VERBOSE1:account_consistency_mode_manager.cc(175)] Dice migration completed.
+[1108:1108:1219/200913.635093:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(256)] MutablePO2TS::MutablePO2TS
+[1108:1108:1219/200913.635248:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[1108:1108:1219/200913.635261:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[1108:1108:1219/200913.635578:VERBOSE1:device_event_log_impl.cc(164)] [20:09:13.635] Bluetooth: EVENT: bluetooth_api.cc:73 BluetoothAPI: 0x129d7bb2d480
+[1108:1108:1219/200913.635851:VERBOSE1:bluetooth_low_energy_event_router.cc(242)] Initializing BluetoothLowEnergyEventRouter.
+[1108:1108:1219/200913.636561:VERBOSE1:dns_sd_registry.cc(158)] RegisterDnsSdListener: _googlecast._tcp.local, registered: 0
+[1108:1108:1219/200913.636574:VERBOSE1:service_discovery_device_lister.cc(39)] DeviceListerStart: service_type: _googlecast._tcp.local
+[1108:1108:1219/200913.636581:VERBOSE1:dns_sd_device_lister.cc(52)] Started device lister for service type _googlecast._tcp.local
+[1108:1108:1219/200913.636586:VERBOSE1:service_discovery_device_lister.cc(45)] DiscoverNewDevices: service_type: _googlecast._tcp.local
+[1108:1108:1219/200913.636591:VERBOSE1:dns_sd_device_lister.cc(56)] Discovery new devices for service type _googlecast._tcp.local
+[1108:1108:1219/200913.636596:VERBOSE1:dns_sd_registry.cc(249)] DispatchApiEvent: service_type: _googlecast._tcp.local
+[1108:1153:1219/200913.636879:VERBOSE1:token_service_table.cc(153)] Loaded tokens: result = 3 ; number of tokens loaded = 0
+[1108:1153:1219/200913.647191:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1108:1108:1219/200913.647221:VERBOSE1:proxy_config_service_linux.cc(1286)] Obtained proxy settings from environment variables
+[1108:1108:1219/200913.647242:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x129d7bc2f580: set chrome proxy config service to 0x129d7bc88a80
+[1108:1108:1219/200913.648712:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(362)] MutablePO2TS::RefreshTokenIsAvailable
+[1108:1108:1219/200913.650312:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Cloud Print
+[1108:1108:1219/200913.650608:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Web Store
+[1108:1108:1219/200913.650849:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Google Hangouts
+[1108:1108:1219/200913.651092:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Feedback
+[1108:1108:1219/200913.651403:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Google Network Speech
+[1108:1108:1219/200913.651637:VERBOSE1:extension_service.cc(1234)] AddComponentExtension CryptoTokenExtension
+[1108:1108:1219/200913.651852:VERBOSE1:extension_service.cc(1234)] AddComponentExtension Chrome PDF Viewer
+[1108:1108:1219/200913.652629:VERBOSE1:account_reconcilor.cc(260)] AccountReconcilor::AccountReconcilor
+[1108:1108:1219/200913.652643:VERBOSE1:account_reconcilor.cc(283)] AccountReconcilor::Initialize
+[1108:1108:1219/200913.652649:VERBOSE1:account_reconcilor.cc(323)] AccountReconcilor::RegisterWithContentSettings
+[1108:1108:1219/200913.652654:VERBOSE1:account_reconcilor.cc(344)] AccountReconcilor::RegisterWithIdentityManager
+[1108:1108:1219/200913.652707:VERBOSE1:profile_manager.cc(1607)] ForceSigninCheck: 0, 0, 1
+[1108:1119:1219/200913.653991:VERBOSE1:component_installer.cc(248)] StartRegistration for Adobe Flash Player
+[1108:1141:1219/200913.654003:VERBOSE1:component_installer.cc(248)] StartRegistration for pnacl
+[1108:1121:1219/200913.653996:VERBOSE1:component_installer.cc(248)] StartRegistration for Widevine Content Decryption Module
+[1108:1143:1219/200913.654064:VERBOSE1:component_installer.cc(248)] StartRegistration for Subresource Filter Rules
+[1108:1108:1219/200913.654086:VERBOSE1:file_type_policies_component_installer.cc(135)] Registering File Type Policies component.
+[1108:1142:1219/200913.654094:VERBOSE1:component_installer.cc(248)] StartRegistration for CRLSet
+[1108:1156:1219/200913.654155:VERBOSE1:component_installer.cc(248)] StartRegistration for Origin Trials
+[1108:1121:1219/200913.654167:VERBOSE1:component_installer.cc(235)] Preinstalled component found for Widevine Content Decryption Module at /opt/google/chrome/WidevineCdm with version 4.10.1610.0.
+[1108:1157:1219/200913.654185:VERBOSE1:component_installer.cc(248)] StartRegistration for File Type Policies
+[1108:1158:1219/200913.654235:VERBOSE1:component_installer.cc(248)] StartRegistration for Certificate Error Assistant
+[1108:1159:1219/200913.654243:VERBOSE1:component_installer.cc(248)] StartRegistration for MEI Preload
+[1108:1160:1219/200913.654304:VERBOSE1:component_installer.cc(248)] StartRegistration for Legacy TLS Deprecation Configuration
+[1108:1161:1219/200913.654367:VERBOSE1:component_installer.cc(248)] StartRegistration for Safety Tips
+[1108:1159:1219/200913.654381:VERBOSE1:component_installer.cc(235)] Preinstalled component found for MEI Preload at /opt/google/chrome/MEIPreload with version 1.0.5.0.
+[1108:1153:1219/200913.655990:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1108:1153:1219/200913.656016:ERROR:bus.cc(393)] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1152:1166:1219/200913.665031:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[1152:1166:1219/200913.665104:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[1152:1166:1219/200913.665110:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[1152:1166:1219/200913.665115:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[1152:1166:1219/200913.665120:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[1152:1166:1219/200913.665124:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[1152:1166:1219/200913.665129:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[1152:1166:1219/200913.665139:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[1152:1166:1219/200913.665144:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[1152:1166:1219/200913.665148:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[1152:1166:1219/200913.665153:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[1152:1166:1219/200913.665158:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[1152:1166:1219/200913.665163:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[1152:1166:1219/200913.665168:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[1152:1166:1219/200913.665173:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[1152:1166:1219/200913.665177:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[1152:1166:1219/200913.665182:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[1152:1166:1219/200913.665187:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[1152:1166:1219/200913.665192:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[1152:1166:1219/200913.665196:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[1152:1166:1219/200913.665201:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[1152:1166:1219/200913.665206:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[1152:1166:1219/200913.665210:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[1152:1166:1219/200913.665215:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[1152:1166:1219/200913.665220:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[1152:1166:1219/200913.665225:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[1152:1166:1219/200913.665229:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[1152:1166:1219/200913.665235:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[1152:1166:1219/200913.665239:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[1152:1166:1219/200913.665244:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[1152:1166:1219/200913.665249:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[1152:1166:1219/200913.665254:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[1152:1166:1219/200913.665258:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[1152:1166:1219/200913.665263:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[1152:1166:1219/200913.665268:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[1152:1166:1219/200913.665275:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[1152:1166:1219/200913.665280:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[1152:1166:1219/200913.665285:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[1152:1166:1219/200913.665289:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[1152:1166:1219/200913.665294:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[1152:1166:1219/200913.665299:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[1152:1166:1219/200913.665304:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[1152:1166:1219/200913.665308:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[1152:1166:1219/200913.665313:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[1152:1166:1219/200913.665318:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[1152:1166:1219/200913.665323:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[1152:1166:1219/200913.665330:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[1152:1166:1219/200913.665335:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[1152:1166:1219/200913.665851:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[1152:1166:1219/200913.665863:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[1152:1166:1219/200913.665868:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[1152:1166:1219/200913.665873:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[1152:1166:1219/200913.665878:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[1152:1166:1219/200913.665882:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[1152:1166:1219/200913.665887:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[1152:1166:1219/200913.665892:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[1152:1166:1219/200913.665896:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[1152:1166:1219/200913.665901:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[1152:1166:1219/200913.665906:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[1152:1166:1219/200913.665913:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[1152:1166:1219/200913.665918:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[1152:1166:1219/200913.665923:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[1152:1166:1219/200913.665928:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[1152:1166:1219/200913.665932:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[1152:1166:1219/200913.665937:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[1152:1166:1219/200913.665942:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[1152:1166:1219/200913.665946:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[1152:1166:1219/200913.665951:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[1152:1166:1219/200913.665956:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[1152:1166:1219/200913.665960:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[1152:1166:1219/200913.665965:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[1152:1166:1219/200913.665970:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[1152:1166:1219/200913.665974:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[1152:1166:1219/200913.665979:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[1152:1166:1219/200913.665984:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[1152:1166:1219/200913.665989:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[1152:1166:1219/200913.665993:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[1152:1166:1219/200913.665998:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[1152:1166:1219/200913.666003:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[1152:1166:1219/200913.666007:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[1152:1166:1219/200913.666012:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[1152:1166:1219/200913.666017:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[1152:1166:1219/200913.666021:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[1152:1166:1219/200913.666026:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[1152:1166:1219/200913.666035:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[1152:1166:1219/200913.666039:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[1152:1166:1219/200913.666044:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[1152:1166:1219/200913.666049:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[1152:1166:1219/200913.666054:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[1152:1166:1219/200913.666059:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[1152:1166:1219/200913.666066:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[1152:1166:1219/200913.666071:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[1152:1166:1219/200913.666076:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[1152:1166:1219/200913.666080:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[1152:1166:1219/200913.666085:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[1152:1166:1219/200913.666090:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[1152:1166:1219/200913.666832:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://www.gstatic.com/autofill/hourly/bins.json
+[1152:1166:1219/200913.667205:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://www.gstatic.com/autofill/weekly/merchants.json
+[1108:1108:1219/200913.678394:VERBOSE1:bluez_dbus_manager.cc(189)] Bluetooth not supported.
+[1152:1166:1219/200913.679324:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.google.com/service/update2/crx?os=linux&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=79.0.3945.88&lang=en-US&acceptformat=crx3&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1
+[1108:1108:1219/200913.679556:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(460)] MutablePO2TS::OnWebDataServiceRequestDone. Result type: 5
+[1108:1108:1219/200913.679576:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(520)] MutablePO2TS::LoadAllCredentialsIntoMemory; 0 Credential(s).
+[1108:1108:1219/200913.679592:VERBOSE1:account_reconcilor.cc(410)] AccountReconcilor::OnEndBatchOfRefreshTokenStateChanges. Reconcilor state: 0
+[1108:1108:1219/200913.679612:VERBOSE1:account_reconcilor.cc(504)] AccountReconcilor::StartReconcile: token service *not* ready yet.
+[1108:1108:1219/200913.679640:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[1108:1108:1219/200913.679647:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[1108:1108:1219/200913.680554:VERBOSE1:component_installer.cc(392)] FinishRegistration for Adobe Flash Player
+[1108:1108:1219/200913.680576:VERBOSE1:component_updater_service.cc(91)] CrxUpdateService starting up. First update attempt will take place in 360 seconds. Next update attempt will take place in 18000 seconds. 
+[1108:1108:1219/200913.680588:VERBOSE1:component_installer.cc(392)] FinishRegistration for pnacl
+[1108:1108:1219/200913.680601:VERBOSE1:component_installer.cc(392)] FinishRegistration for Widevine Content Decryption Module
+[1108:1108:1219/200913.680614:VERBOSE1:component_installer.cc(433)] Component ready, version 4.10.1610.0 in /opt/google/chrome/WidevineCdm
+[1108:1108:1219/200913.680633:VERBOSE1:component_installer.cc(392)] FinishRegistration for CRLSet
+[1108:1108:1219/200913.680647:VERBOSE1:component_installer.cc(392)] FinishRegistration for Origin Trials
+[1108:1108:1219/200913.680658:VERBOSE1:component_installer.cc(392)] FinishRegistration for File Type Policies
+[1108:1108:1219/200913.680671:VERBOSE1:component_installer.cc(392)] FinishRegistration for Subresource Filter Rules
+[1108:1108:1219/200913.680688:VERBOSE1:component_installer.cc(392)] FinishRegistration for Legacy TLS Deprecation Configuration
+[1108:1119:1219/200913.680686:VERBOSE1:widevine_cdm_component_installer.cc(248)] Updating hint file with Widevine CDM 4.10.1610.0
+[1108:1108:1219/200913.680723:VERBOSE1:component_installer.cc(392)] FinishRegistration for MEI Preload
+[1108:1108:1219/200913.680733:VERBOSE1:component_installer.cc(433)] Component ready, version 1.0.5.0 in /opt/google/chrome/MEIPreload
+[1108:1108:1219/200913.680744:VERBOSE1:component_installer.cc(392)] FinishRegistration for Safety Tips
+[1108:1108:1219/200913.680778:VERBOSE1:component_installer.cc(392)] FinishRegistration for Certificate Error Assistant
+[1108:1108:1219/200913.681545:VERBOSE1:gaia_cookie_manager_service.cc(966)] GaiaCookieManagerService::ListAccounts
+[1152:1166:1219/200913.681808:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[1152:1166:1219/200913.681926:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://clientservices.googleapis.com/chrome-variations/seed?osname=linux&channel=stable&milestone=79
+[1152:1166:1219/200913.682222:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/?rel=1576786153284
+[1108:1208:1219/200913.686164:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1108:1208:1219/200913.686204:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1108:1208:1219/200913.686248:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1108:1208:1219/200913.686260:WARNING:property.cc(145)] DaemonVersion: GetAndBlock: failed.
+[1108:1208:1219/200913.686283:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1108:1208:1219/200913.686305:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1173:1173:1219/200913.691389:ERROR:paint_controller.cc(548)] PaintController::FinishCycle() completed
+[1150:1150:1219/200913.744640:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1173:1173:1219/200913.758629:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[1173:1173:1219/200913.758818:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  0x1a485cdc21c8
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[1173:1173:1219/200913.759464:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1173:1173:1219/200913.759636:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[1173:1187:1219/200913.760612:ERROR:command_buffer_proxy_impl.cc(124)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[1150:1150:1219/200913.763790:VERBOSE1:gles2_cmd_decoder.cc(3803)] GL_EXT_packed_depth_stencil supported.
+[1152:1166:1219/200913.765508:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.googleapis.com/css?family=Open+Sans
+[1152:1166:1219/200913.765784:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/cljs-logo.svg
+[1152:1166:1219/200913.765928:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/main.js
+[1173:1173:1219/200913.766835:ERROR:paint_controller.cc(548)] PaintController::FinishCycle() completed
+[1152:1166:1219/200913.809014:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/base.js
+[1152:1166:1219/200913.809296:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/deps.js
+[1152:1166:1219/200913.809514:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/brepl_deps.js
+[1108:1108:1219/200913.811914:VERBOSE1:gaia_cookie_manager_service.cc(811)] ListAccounts successful
+[1108:1108:1219/200913.811943:VERBOSE1:gaia_cookie_manager_service.cc(1001)] GaiaCookieManagerService::HandleNextRequest
+[1108:1108:1219/200913.811969:VERBOSE1:gaia_cookie_manager_service.cc(1017)] GaiaCookieManagerService::HandleNextRequest: no more
+[1108:1108:1219/200913.811984:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[1108:1108:1219/200913.811990:VERBOSE1:gaia_auth_util.cc(46)] Canonicalized @gmail.com to @gmail.com
+[1108:1108:1219/200913.812009:VERBOSE1:account_reconcilor.cc(620)] AccountReconcilor::OnAccountsInCookieUpdated: CookieJar 0 accounts, Reconcilor's state is 1, Error was 
+[1108:1108:1219/200913.812018:VERBOSE1:account_reconcilor.cc(746)] AccountReconcilor::LoadValidAccountsFromTokenService: Chrome 0 accounts
+[1108:1108:1219/200913.812023:VERBOSE1:account_reconcilor.cc(763)] AccountReconcilor::FinishReconcile
+[1108:1108:1219/200913.812072:VERBOSE1:account_reconcilor.cc(900)] AccountReconcilor::CalculateIfReconcileIsDone: done
+[1108:1108:1219/200913.812083:VERBOSE1:account_consistency_mode_manager.cc(187)] Dice migration on next startup: 1
+[1108:1108:1219/200913.812091:VERBOSE1:account_reconcilor.cc(911)] AccountReconcilor::StartReconcileIfChromeAccountsChanged
+[1152:1166:1219/200913.824707:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://redirector.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvOTRmQUFXVHlhaGJaUTdMLWtCSkNJUl9ZQQ/1.0.0.5_nmmhkkegccagdldgiimedpiccmgmieda.crx
+[1173:1173:1219/200913.825096:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1173:1173:1219/200913.825281:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[1152:1166:1219/200913.825586:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2
+[1173:1173:1219/200913.831013:ERROR:paint_controller.cc(548)] PaintController::FinishCycle() completed
+[1173:1173:1219/200913.831501:ERROR:paint_controller.cc(548)] PaintController::FinishCycle() completed
+[1152:1166:1219/200913.832098:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2
+[1152:1166:1219/200913.837298:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://r4---sn-p5qs7nes.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvOTRmQUFXVHlhaGJaUTdMLWtCSkNJUl9ZQQ/1.0.0.5_nmmhkkegccagdldgiimedpiccmgmieda.crx?cms_redirect=yes&mip=54.80.186.66&mm=28&mn=sn-p5qs7nes&ms=nvh&mt=1576786114&mv=m&mvi=3&pl=14&shardbypass=yes
+[1152:1166:1219/200913.850833:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/error.js
+[1152:1166:1219/200913.851228:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/nodetype.js
+[1152:1166:1219/200913.851339:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/string/string.js
+[1152:1166:1219/200913.851466:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/asserts/asserts.js
+[1152:1166:1219/200913.851557:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/array/array.js
+[1152:1166:1219/200913.851772:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/labs/useragent/util.js
+[1152:1166:1219/200913.851902:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/object/object.js
+[1152:1166:1219/200913.851987:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/labs/useragent/browser.js
+[1152:1166:1219/200913.852126:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/labs/useragent/engine.js
+[1152:1166:1219/200913.852264:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/labs/useragent/platform.js
+[1152:1166:1219/200913.852505:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/reflect/reflect.js
+[1152:1166:1219/200913.852640:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/useragent/useragent.js
+[1152:1166:1219/200913.852748:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/browserfeature.js
+[1152:1166:1219/200913.852841:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/htmlelement.js
+[1152:1166:1219/200913.853062:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/tagname.js
+[1152:1166:1219/200913.853178:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/asserts.js
+[1152:1166:1219/200913.853262:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/tags.js
+[1152:1166:1219/200913.853458:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/string/typedstring.js
+[1152:1166:1219/200913.853565:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/string/const.js
+[1152:1166:1219/200913.853766:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/safescript.js
+[1152:1166:1219/200913.853889:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/fs/url.js
+[1152:1166:1219/200913.853973:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/i18n/bidi.js
+[1152:1166:1219/200913.854099:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/trustedresourceurl.js
+[1152:1166:1219/200913.854204:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/safeurl.js
+[1152:1166:1219/200913.854332:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/safestyle.js
+[1152:1166:1219/200913.854453:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/safestylesheet.js
+[1152:1166:1219/200913.854584:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/safehtml.js
+[1152:1166:1219/200913.854712:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/safe.js
+[1152:1166:1219/200913.854887:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/uncheckedconversions.js
+[1152:1166:1219/200913.855019:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/math.js
+[1152:1166:1219/200913.855160:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/coordinate.js
+[1152:1166:1219/200913.855374:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/size.js
+[1152:1166:1219/200913.855513:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/dom.js
+[1152:1166:1219/200913.855673:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/useragent/product.js
+[1152:1166:1219/200913.855781:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/json/json.js
+[1152:1166:1219/200913.855913:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/structs/structs.js
+[1152:1166:1219/200913.856034:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/functions/functions.js
+[1152:1166:1219/200913.856531:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/iter/iter.js
+[1152:1166:1219/200913.856637:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/structs/map.js
+[1152:1166:1219/200913.856718:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/uri/utils.js
+[1152:1166:1219/200913.856802:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/uri/uri.js
+[1152:1166:1219/200913.856887:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/integer.js
+[1152:1166:1219/200913.856973:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/string/stringbuffer.js
+[1152:1166:1219/200913.857079:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/long.js
+[1152:1166:1219/200913.857163:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/cljs/core.js
+[1152:1166:1219/200913.857246:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/errorcontext.js
+[1152:1166:1219/200913.857364:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/debug.js
+[1152:1166:1219/200913.857616:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/logrecord.js
+[1152:1166:1219/200913.857779:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/logbuffer.js
+[1152:1166:1219/200913.857926:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/logger.js
+[1152:1166:1219/200913.858062:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/log/log.js
+[1152:1166:1219/200913.858226:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/xpc.js
+[1152:1166:1219/200913.858378:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/promise/thenable.js
+[1152:1166:1219/200913.858550:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/async/freelist.js
+[1152:1166:1219/200913.858679:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/async/workqueue.js
+[1152:1166:1219/200913.859172:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/entrypointregistry.js
+[1152:1166:1219/200913.859306:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/async/nexttick.js
+[1152:1166:1219/200913.859398:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/async/run.js
+[1152:1166:1219/200913.859492:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/promise/resolver.js
+[1152:1166:1219/200913.859580:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/promise/promise.js
+[1152:1166:1219/200913.859671:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/disposable/idisposable.js
+[1152:1166:1219/200913.859770:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/disposable/disposable.js
+[1152:1166:1219/200913.859855:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/browserfeature.js
+[1152:1166:1219/200913.859940:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/eventid.js
+[1152:1166:1219/200913.860022:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/event.js
+[1152:1166:1219/200913.860141:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/eventtype.js
+[1152:1166:1219/200913.860257:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/browserevent.js
+[1152:1166:1219/200913.860384:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/listenable.js
+[1152:1166:1219/200913.860526:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/listener.js
+[1152:1166:1219/200913.860626:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/listenermap.js
+[1152:1166:1219/200913.860743:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/events.js
+[1152:1166:1219/200913.860870:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/eventtarget.js
+[1152:1166:1219/200913.861036:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/timer/timer.js
+[1152:1166:1219/200913.861128:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/json/hybrid.js
+[1152:1166:1219/200913.861261:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/errorcode.js
+[1152:1166:1219/200913.861404:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/eventtype.js
+[1152:1166:1219/200913.861526:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/httpstatus.js
+[1152:1166:1219/200913.861644:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xhrlike.js
+[1173:1173:1219/200913.867747:ERROR:paint_controller.cc(548)] PaintController::FinishCycle() completed
+[1173:1173:1219/200913.867950:ERROR:paint_controller.cc(548)] PaintController::FinishCycle() completed
+[1152:1166:1219/200913.903470:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xmlhttpfactory.js
+[1152:1166:1219/200913.903625:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/wrapperxmlhttpfactory.js
+[1152:1166:1219/200913.903715:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xmlhttp.js
+[1152:1166:1219/200913.903795:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xhrio.js
+[1152:1166:1219/200913.903896:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/mochikit/async/deferred.js
+[1152:1166:1219/200913.904020:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/async/delay.js
+[1152:1166:1219/200913.904183:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/events/eventhandler.js
+[1152:1166:1219/200913.904299:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/messaging/messagechannel.js
+[1152:1166:1219/200913.904703:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/messaging/abstractchannel.js
+[1152:1166:1219/200913.904797:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/crosspagechannelrole.js
+[1152:1166:1219/200913.904885:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/transport.js
+[1152:1166:1219/200913.904966:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/directtransport.js
+[1152:1166:1219/200913.905058:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/frameelementmethodtransport.js
+[1152:1166:1219/200913.905138:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/iframepollingtransport.js
+[1152:1166:1219/200913.905222:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/iframerelaytransport.js
+[1152:1166:1219/200913.905301:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/nativemessagingtransport.js
+[1152:1166:1219/200913.905380:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/nixtransport.js
+[1152:1166:1219/200913.905466:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/xpc/crosspagechannel.js
+[1152:1166:1219/200913.905537:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/websocket.js
+[1152:1166:1219/200913.905639:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/browser/event.js
+[1152:1166:1219/200913.905773:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/browser/net.js
+[1152:1166:1219/200913.905897:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/string/stringformat.js
+[1152:1166:1219/200913.906006:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/string.js
+[1152:1166:1219/200913.906135:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/walk.js
+[1152:1166:1219/200913.906250:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/cljs/spec/gen/alpha.js
+[1152:1166:1219/200913.906367:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/cljs/spec/alpha.js
+[1152:1166:1219/200913.906456:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/cljs/repl.js
+[1152:1166:1219/200913.906527:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/browser/repl.js
+[1152:1166:1219/200913.906629:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/browser/repl/preload.js
+[1173:1173:1219/200914.101148:VERBOSE1:language_detection_util.cc(128)] Detected language: en
+[1173:1173:1219/200914.103671:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[1173:1173:1219/200914.103805:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  0x1a485ce8bf70
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[1173:1173:1219/200914.103879:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1173:1173:1219/200914.104000:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 2
+[1152:1166:1219/200914.107754:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/repl?xpc=%7B%22cn%22%3A%228XM1OkAgds%22%2C%22ppu%22%3A%22http%3A%2F%2Flocalhost%3A9000%2Frobots.txt%22%2C%22lpu%22%3A%22http%3A%2F%2Flocalhost%3A9000%2Frobots.txt%22%7D
+[1152:1166:1219/200914.108116:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/cljs-logo-icon-32.png
+[1173:1173:1219/200914.181672:VERBOSE1:dispatcher.cc(539)] Num tracked contexts: 1
+[1173:1173:1219/200914.183031:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[1173:1173:1219/200914.183245:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  0x1a485ce8bf70
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[1173:1173:1219/200914.183302:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1173:1173:1219/200914.183387:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 2
+[1173:1173:1219/200914.184103:VERBOSE1:script_context.cc(124)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[1173:1173:1219/200914.184155:VERBOSE1:script_context.cc(124)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[1152:1166:1219/200914.274638:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200914.287840:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200914.294621:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200915.101435:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://clients2.google.com/service/update2/crx?os=linux&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=79.0.3945.88&lang=en-US&acceptformat=crx3&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D0.0.0.0%26installedby%3Dother%26uc%26ping%3Dr%253D-1%2526e%253D1
+[1108:1120:1219/200915.101906:VERBOSE1:mdns_client_impl.cc(160)] Sockets ready:1
+[1152:1166:1219/200915.134391:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin
+[1108:1108:1219/200915.134861:VERBOSE1:device_event_log_impl.cc(164)] [20:09:15.134] Bluetooth: EVENT: bluetooth_adapter_bluez.cc:200 BluetoothAdapterBlueZ::Shutdown
+[1152:1166:1219/200915.207951:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://redirector.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvOWFjQUFXV2lsMkZVdjR5Vk5VZHJTM3E1dw/7919.1028.0.0_pkedcjkdefgpdelpbcmbmeomcjbeemfm.crx
+[1152:1166:1219/200915.218015:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://r5---sn-p5qs7ned.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvOWFjQUFXV2lsMkZVdjR5Vk5VZHJTM3E1dw/7919.1028.0.0_pkedcjkdefgpdelpbcmbmeomcjbeemfm.crx?cms_redirect=yes&mip=54.80.186.66&mm=28&mn=sn-p5qs7ned&ms=nvh&mt=1576786052&mv=m&mvi=4&pl=14&shardbypass=yes
+[1614:1614:1219/200915.231568:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1640:1640:1219/200915.325121:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1152:1166:1219/200915.354165:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[1152:1166:1219/200915.354187:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[1152:1166:1219/200915.354193:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[1152:1166:1219/200915.354198:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[1152:1166:1219/200915.354203:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[1152:1166:1219/200915.354208:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[1152:1166:1219/200915.354213:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[1152:1166:1219/200915.354218:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[1152:1166:1219/200915.354223:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[1152:1166:1219/200915.354233:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[1152:1166:1219/200915.354238:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[1152:1166:1219/200915.354243:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[1152:1166:1219/200915.354248:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[1152:1166:1219/200915.354253:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[1152:1166:1219/200915.354258:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[1152:1166:1219/200915.354262:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[1152:1166:1219/200915.354267:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[1152:1166:1219/200915.354272:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[1152:1166:1219/200915.354277:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[1152:1166:1219/200915.354282:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[1152:1166:1219/200915.354289:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[1152:1166:1219/200915.354296:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[1152:1166:1219/200915.354302:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[1152:1166:1219/200915.354306:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[1152:1166:1219/200915.354311:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[1152:1166:1219/200915.354316:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[1152:1166:1219/200915.354321:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[1152:1166:1219/200915.354326:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[1152:1166:1219/200915.354331:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[1152:1166:1219/200915.354336:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[1152:1166:1219/200915.354340:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[1152:1166:1219/200915.354345:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[1152:1166:1219/200915.354350:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[1152:1166:1219/200915.354355:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[1152:1166:1219/200915.354360:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[1152:1166:1219/200915.354366:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[1152:1166:1219/200915.354372:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[1152:1166:1219/200915.354377:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[1152:1166:1219/200915.354382:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[1152:1166:1219/200915.354387:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[1152:1166:1219/200915.354392:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[1152:1166:1219/200915.354397:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[1152:1166:1219/200915.354402:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[1152:1166:1219/200915.354407:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[1152:1166:1219/200915.354411:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[1152:1166:1219/200915.354416:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[1152:1166:1219/200915.354421:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[1152:1166:1219/200915.354429:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[1108:1158:1219/200915.355326:VERBOSE1:simple_index_file.cc(599)] Simple Cache Index is being restored from disk.
+[1755:1755:1219/200915.410668:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1749:1749:1219/200915.411857:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[1749:1749:1219/200915.412072:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           nmmhkkegccagdldgiimedpiccmgmieda
+  frame:                  0x348e938821c8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: nmmhkkegccagdldgiimedpiccmgmieda
+  effective context type: BLESSED_EXTENSION
+[1749:1749:1219/200915.412710:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1749:1749:1219/200915.425618:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[1108:1158:1219/200915.430855:VERBOSE1:file_url_loader_factory.cc(442)] FileURLLoader::Start: file:///home/circleci/.config/google-chrome/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.5_0/craw_background.js
+[1770:1770:1219/200915.526346:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1108:1158:1219/200915.590762:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/am/messages.json
+[1108:1158:1219/200915.590920:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ar/messages.json
+[1108:1158:1219/200915.591064:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/bg/messages.json
+[1108:1158:1219/200915.591275:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/bn/messages.json
+[1108:1158:1219/200915.591415:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ca/messages.json
+[1108:1158:1219/200915.591540:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/cs/messages.json
+[1108:1158:1219/200915.591659:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/da/messages.json
+[1108:1158:1219/200915.591784:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/de/messages.json
+[1108:1158:1219/200915.591920:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/el/messages.json
+[1108:1158:1219/200915.592041:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/en/messages.json
+[1108:1158:1219/200915.592174:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/es/messages.json
+[1108:1158:1219/200915.592299:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/et/messages.json
+[1108:1158:1219/200915.592428:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/fa/messages.json
+[1108:1158:1219/200915.592548:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/fi/messages.json
+[1108:1158:1219/200915.592686:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/fil/messages.json
+[1108:1158:1219/200915.592823:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/fr/messages.json
+[1108:1158:1219/200915.592980:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/gu/messages.json
+[1108:1158:1219/200915.593131:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/hi/messages.json
+[1108:1158:1219/200915.593261:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/hr/messages.json
+[1108:1158:1219/200915.593379:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/hu/messages.json
+[1108:1158:1219/200915.593502:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/id/messages.json
+[1108:1158:1219/200915.593633:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/it/messages.json
+[1108:1158:1219/200915.593924:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ja/messages.json
+[1108:1158:1219/200915.594078:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/kn/messages.json
+[1108:1158:1219/200915.594202:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ko/messages.json
+[1108:1158:1219/200915.594324:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/lt/messages.json
+[1108:1158:1219/200915.594452:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/lv/messages.json
+[1108:1158:1219/200915.594616:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ml/messages.json
+[1108:1158:1219/200915.594777:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/mr/messages.json
+[1108:1158:1219/200915.594907:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ms/messages.json
+[1108:1158:1219/200915.595033:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/nb/messages.json
+[1108:1158:1219/200915.595189:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/nl/messages.json
+[1108:1158:1219/200915.595323:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/pl/messages.json
+[1108:1158:1219/200915.595445:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/pt/messages.json
+[1108:1158:1219/200915.595583:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ro/messages.json
+[1108:1158:1219/200915.595708:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ru/messages.json
+[1108:1158:1219/200915.595858:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/sk/messages.json
+[1108:1158:1219/200915.596003:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/sl/messages.json
+[1108:1158:1219/200915.596153:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/sr/messages.json
+[1108:1158:1219/200915.596291:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/sv/messages.json
+[1108:1158:1219/200915.596430:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/sw/messages.json
+[1108:1158:1219/200915.596600:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/ta/messages.json
+[1108:1158:1219/200915.596763:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/te/messages.json
+[1108:1158:1219/200915.596919:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/th/messages.json
+[1108:1158:1219/200915.597057:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/tr/messages.json
+[1108:1158:1219/200915.597202:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/uk/messages.json
+[1108:1158:1219/200915.597342:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/vi/messages.json
+[1108:1158:1219/200915.597496:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/zh/messages.json
+[1108:1158:1219/200915.597628:VERBOSE1:content_hash.cc(308)] content mismatch for _locales/zh_TW/messages.json
+[1108:1158:1219/200915.603425:VERBOSE1:content_hash.cc(308)] content mismatch for manifest.json
+[1779:1779:1219/200915.607837:VERBOSE1:v8_context_snapshot.cc(153)] A context is created from snapshot for main world
+[1779:1779:1219/200915.608022:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           pkedcjkdefgpdelpbcmbmeomcjbeemfm
+  frame:                  0x21f0352221c8
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: pkedcjkdefgpdelpbcmbmeomcjbeemfm
+  effective context type: BLESSED_EXTENSION
+[1779:1779:1219/200915.608475:VERBOSE1:script_context.cc(117)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[1108:1120:1219/200915.612366:VERBOSE1:content_verifier.cc(596)] OnFetchComplete pkedcjkdefgpdelpbcmbmeomcjbeemfm success:1
+[1779:1779:1219/200915.616560:VERBOSE1:dispatcher.cc(362)] Num tracked contexts: 1
+[1108:1161:1219/200915.620646:VERBOSE1:file_url_loader_factory.cc(442)] FileURLLoader::Start: file:///home/circleci/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/7919.1028.0.0_0/common.js
+[1108:1158:1219/200915.620861:VERBOSE1:file_url_loader_factory.cc(442)] FileURLLoader::Start: file:///home/circleci/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/7919.1028.0.0_0/mirroring_common.js
+[1108:1119:1219/200915.620891:VERBOSE1:file_url_loader_factory.cc(442)] FileURLLoader::Start: file:///home/circleci/.config/google-chrome/Default/Extensions/pkedcjkdefgpdelpbcmbmeomcjbeemfm/7919.1028.0.0_0/background_script.js
+[1108:1120:1219/200915.621644:VERBOSE1:content_verifier.cc(596)] OnFetchComplete pkedcjkdefgpdelpbcmbmeomcjbeemfm success:1
+[1152:1166:1219/200917.075059:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.138912:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.145027:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/relativetimeprovider.js
+[1152:1166:1219/200917.147343:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.148564:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/formatter.js
+[1152:1166:1219/200917.151861:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/console.js
+[1152:1166:1219/200917.154747:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/errorcode.js
+[1152:1166:1219/200917.156941:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/mechanism.js
+[1152:1166:1219/200917.157708:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.159239:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/iterablemechanism.js
+[1152:1166:1219/200917.161741:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/html5webstorage.js
+[1152:1166:1219/200917.164177:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/html5sessionstorage.js
+[1152:1166:1219/200917.166479:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/net/jsloader.js
+[1152:1166:1219/200917.169318:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/html/legacyconversions.js
+[1152:1166:1219/200917.172286:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/html5localstorage.js
+[1152:1166:1219/200917.175225:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/ieuserdata.js
+[1152:1166:1219/200917.178317:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/prefixedmechanism.js
+[1152:1166:1219/200917.180972:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/storage/mechanism/mechanismfactory.js
+[1152:1166:1219/200917.183454:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/kaocha/cljs/websocket.js
+[1152:1166:1219/200917.186038:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/util.js
+[1152:1166:1219/200917.188278:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/eq.js
+[1152:1166:1219/200917.190382:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/types.js
+[1152:1166:1219/200917.194189:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/delimiters.js
+[1152:1166:1219/200917.196582:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/caching.js
+[1152:1166:1219/200917.199267:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/impl/decoder.js
+[1152:1166:1219/200917.201890:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/impl/reader.js
+[1152:1166:1219/200917.204206:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/handlers.js
+[1152:1166:1219/200917.206918:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit/impl/writer.js
+[1152:1166:1219/200917.209544:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/com/cognitect/transit.js
+[1152:1166:1219/200917.212138:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/kaocha/cljs/cognitect/transit.js
+[1152:1166:1219/200917.216804:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/structs/circularbuffer.js
+[1152:1166:1219/200917.218959:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/debugwindow.js
+[1152:1166:1219/200917.221331:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/fancywindow.js
+[1152:1166:1219/200917.224044:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/dom/vendor.js
+[1152:1166:1219/200917.226111:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/box.js
+[1152:1166:1219/200917.228229:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/irect.js
+[1152:1166:1219/200917.230029:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/math/rect.js
+[1152:1166:1219/200917.232196:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/style/style.js
+[1152:1166:1219/200917.235520:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/goog/debug/divconsole.js
+[1152:1166:1219/200917.237510:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/lambdaisland/glogi.js
+[1152:1166:1219/200917.240158:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/cljs/pprint.js
+[1152:1166:1219/200917.285991:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/cljs/test.js
+[1152:1166:1219/200917.291487:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/lambdaisland/glogi/console.js
+[1152:1166:1219/200917.294051:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/kaocha/type/cljs.js
+[1152:1166:1219/200917.296408:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/set.js
+[1152:1166:1219/200917.299330:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/clojure/data.js
+[1152:1166:1219/200917.301858:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/pjstadig/macro.js
+[1152:1166:1219/200917.303870:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/pjstadig/print.js
+[1152:1166:1219/200917.305877:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/kaocha/cljs/websocket_client.js
+[1108:1108:1219/200917.314942:INFO:CONSOLE(13049)] "[goog.net.WebSocket] "Opening the WebSocket on ws://localhost:9753/"", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.315495:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: ws://localhost:9753/
+[1152:1166:1219/200917.315805:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/kaocha/cljs/run.js
+[1108:1108:1219/200917.356514:INFO:CONSOLE(13049)] "[goog.net.WebSocket] "WebSocket opened on ws://localhost:9753/"", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.357252:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket {:callback :onopen, :event #object[Object [object Object]]}, :line 136}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.357695:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :kaocha.cljs.websocket-client/connected, :browser? true}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.450368:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.455509:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/browser/main.js
+[1152:1166:1219/200917.457387:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.458183:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/out/browser/main_test.js
+[1108:1108:1219/200917.464178:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:symbol browser.main-test, :type :cljs/exists}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.466545:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.474616:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1108:1108:1219/200917.481050:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :kaocha.type.cljs/fixture-loaded, :fixture [browser.main-test :before]}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.483441:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1108:1108:1219/200917.493514:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :cljs.test/message, :cljs.test/message {:type :begin-test-var, :var #'browser.main-test/test-sum}, :cljs.test/testing-contexts ()}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.494956:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :cljs.test/message, :cljs.test/message {:type :pass, :expected (= 2 (m/sum)), :actual (#object[cljs$core$_EQ_] 2 2), :message nil}, :cljs.test/testing-contexts ()}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.495974:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :cljs.test/message, :cljs.test/message {:type :end-test-var, :var #'browser.main-test/test-sum}, :cljs.test/testing-contexts ()}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.496772:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :kaocha.cljs.run/test-finished, :test browser.main-test/test-sum}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.499571:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1108:1108:1219/200917.507050:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket/send {:type :kaocha.type.cljs/fixture-loaded, :fixture [browser.main-test :after]}, :line 71}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.509946:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1108:1108:1219/200917.515898:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:msg "Disconnecting websocket", :line 157}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.516075:INFO:CONSOLE(13049)] "[goog.net.WebSocket] "Closing the WebSocket."", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.518492:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1108:1108:1219/200917.518706:INFO:CONSOLE(13049)] "[goog.net.WebSocket] "The WebSocket on ws://localhost:9753/ closed."", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.519173:INFO:CONSOLE(13049)] "[kaocha.cljs.websocket-client] {:websocket {:callback :onclose, :event #object[Object [object Object]]}, :line 152}", source: http://localhost:9000/out/cljs/core.js (13049)
+[1108:1108:1219/200917.519703:INFO:CONSOLE(13049)] "[goog.net.WebSocket] "The WebSocket closed normally."", source: http://localhost:9000/out/cljs/core.js (13049)
+[1152:1166:1219/200917.522617:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.524085:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.525710:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.526994:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.527828:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.528591:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.529283:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.529979:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.530711:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.531533:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.532205:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.532965:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.533630:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.534307:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.534962:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.535719:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.536420:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.537093:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.537899:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.538493:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.539227:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1152:1166:1219/200917.539885:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://localhost:9000/
+[1108:1108:1219/200917.540000:INFO:CONSOLE(3281)] "Could not send {:repl nil, :type :print, :content "\":close #object[Object [object Object]]\"", :order 16} after 10 attempts.", source: http://localhost:9000/repl?xpc=%7B%22cn%22%3A%228XM1OkAgds%22%2C%22ppu%22%3A%22http%3A%2F%2Flocalhost%3A9000%2Frobots.txt%22%2C%22lpu%22%3A%22http%3A%2F%2Flocalhost%3A9000%2Frobots.txt%22%7D (3281)
+[1108:1108:1219/200917.541665:INFO:CONSOLE(3281)] "Could not send {:repl nil, :type :print, :content "\"\\n\"", :order 17} after 10 attempts.", source: http://localhost:9000/repl?xpc=%7B%22cn%22%3A%228XM1OkAgds%22%2C%22ppu%22%3A%22http%3A%2F%2Flocalhost%3A9000%2Frobots.txt%22%2C%22lpu%22%3A%22http%3A%2F%2Flocalhost%3A9000%2Frobots.txt%22%7D (3281)
+[1404:1404:1219/200918.825567:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1547:1547:1219/200920.136502:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1631:1631:1219/200920.240355:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1713:1713:1219/200920.347538:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1766:1766:1219/200920.417682:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1775:1775:1219/200920.576471:VERBOSE1:statistics_recorder.cc(409)] Collections of all histograms
+Histogram: ChildProcess.FieldTrials.CreateFromShmemSuccess recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: MPArch.ForkTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ThreadPool.DetachDuration.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumActiveWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumTasksBeforeDetach.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: ThreadPool.NumWorkers.ContentChild.Foreground recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.Errors recorded 0 samples (flags = 0x41)
+
+Histogram: UMA.PersistentAllocator.UtilityMetrics.UsedPct recorded 0 samples (flags = 0x41)
+0 ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+
+[1152:1166:1219/200920.654026:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://rrkjnfrmeppnz/
+[1152:1166:1219/200920.654257:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://vgtjwfuxtwywdw/
+[1152:1166:1219/200920.654364:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: http://kubgpyuh/
+[1108:1108:1219/200923.653964:VERBOSE1:proxy_config_service_linux.cc(1286)] Obtained proxy settings from environment variables
+[1108:1108:1219/200923.653993:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x129d7c5b3b00: set chrome proxy config service to 0x129d7c5d7a80
+[1152:1166:1219/200923.654501:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2019' log
+[1152:1166:1219/200923.654524:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2020' log
+[1152:1166:1219/200923.654534:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2021' log
+[1152:1166:1219/200923.654541:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2022' log
+[1152:1166:1219/200923.654546:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Argon2023' log
+[1152:1166:1219/200923.654551:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2019' log
+[1152:1166:1219/200923.654557:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2020' log
+[1152:1166:1219/200923.654562:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2021' log
+[1152:1166:1219/200923.654577:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2022' log
+[1152:1166:1219/200923.654582:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Xenon2023' log
+[1152:1166:1219/200923.654587:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Aviator' log
+[1152:1166:1219/200923.654593:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Icarus' log
+[1152:1166:1219/200923.654598:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Pilot' log
+[1152:1166:1219/200923.654605:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Rocketeer' log
+[1152:1166:1219/200923.654613:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Google 'Skydiver' log
+[1152:1166:1219/200923.654620:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[1152:1166:1219/200923.654625:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[1152:1166:1219/200923.654630:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[1152:1166:1219/200923.654635:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2022' Log
+[1152:1166:1219/200923.654640:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Cloudflare 'Nimbus2023' Log
+[1152:1166:1219/200923.654646:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server
+[1152:1166:1219/200923.654651:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Log Server 2
+[1152:1166:1219/200923.654663:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2019 Log
+[1152:1166:1219/200923.654668:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2020 Log
+[1152:1166:1219/200923.654673:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2021 Log
+[1152:1166:1219/200923.654678:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2022 Log
+[1152:1166:1219/200923.654686:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Yeti2023 Log
+[1152:1166:1219/200923.654693:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2019 Log
+[1152:1166:1219/200923.654698:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2020 Log
+[1152:1166:1219/200923.654703:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2021 Log
+[1152:1166:1219/200923.654708:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2022 Log
+[1152:1166:1219/200923.654713:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: DigiCert Nessie2023 Log
+[1152:1166:1219/200923.654718:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi Gen2 CT log
+[1152:1166:1219/200923.654723:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Sabre' CT log
+[1152:1166:1219/200923.654728:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Sectigo 'Mammoth' CT log
+[1152:1166:1219/200923.654732:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2019' log
+[1152:1166:1219/200923.654737:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2020' log
+[1152:1166:1219/200923.654742:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2021' log
+[1152:1166:1219/200923.654747:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Let's Encrypt 'Oak2022' log
+[1152:1166:1219/200923.654752:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Sirius' log
+[1152:1166:1219/200923.654757:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: StartCom log
+[1152:1166:1219/200923.654766:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: WoSign log
+[1152:1166:1219/200923.654773:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Izenpe log
+[1152:1166:1219/200923.654778:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: CNNIC CT log
+[1152:1166:1219/200923.654783:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Venafi log
+[1152:1166:1219/200923.654788:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec 'Vega' log
+[1152:1166:1219/200923.654793:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Certly.IO log
+[1152:1166:1219/200923.654798:VERBOSE1:multi_log_ct_verifier.cc(61)] Adding CT log: Symantec log
+[1152:1166:1219/200923.655070:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb
+[1152:1166:1219/200923.655316:VERBOSE1:network_delegate.cc(32)] NetworkDelegate::NotifyBeforeURLRequest: https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+[1749:1749:1219/200930.536149:VERBOSE1:dispatcher.cc(539)] Num tracked contexts: 0
+[1749:1749:1219/200930.536642:VERBOSE1:script_context.cc(124)] Destroyed context for extension
+  extension id: nmmhkkegccagdldgiimedpiccmgmieda
+  effective extension id: nmmhkkegccagdldgiimedpiccmgmieda
+[1749:1749:1219/200930.536692:VERBOSE1:script_context.cc(124)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[1779:1779:1219/200930.674612:VERBOSE1:dispatcher.cc(539)] Num tracked contexts: 0
