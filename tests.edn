@@ -9,5 +9,5 @@
             :cljs/compiler-options {;:closure-defines {kaocha.type.cljs/log-level "ALL"}
                                     ;                  kaocha.type.cljs/root-log-level "ALL"
                                     :verbose true}
-            :cljs/timeout  60000
+            :cljs/timeout  30000
             :cljs/repl-env cljs.repl.browser/repl-env}]}

@@ -15,7 +15,7 @@ jobs:
       - run: bin/kaocha :browser-cljs
       - store_test_results:
           path: test-results
-      - store_test_results:
+      - store_artifacts:
           path: /tmp/chrome
       - save_cache:
           key: 'deps-{{checksum "deps.edn"}}'
