@@ -9,7 +9,7 @@ jobs:
           keys:
             - 'deps-{{ checksum "deps.edn" }}'
       - run: mkdir -p test-results
-      - run: bin/kaocha :browser-cljs
+      - run: bin/kaocha :browser-cljs || bin/kaocha :browser-cljs
       - store_test_results:
           path: test-results
       - save_cache:
