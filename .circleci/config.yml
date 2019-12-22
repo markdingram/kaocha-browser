@@ -4,14 +4,17 @@ jobs:
     docker:
       - image: circleci/clojure:openjdk-11-tools-deps-node-browsers
     steps:
+      - run:
+          command: /usr/bin/google-chrome-stable
+          background: true
       - checkout
       - restore_cache:
           keys:
             - 'deps-{{ checksum "deps.edn" }}'
       - run: mkdir -p test-results
       - run: mkdir -p /tmp/chrome
-      - run: /usr/bin/google-chrome --version > /tmp/chrome/version
-      - run: sudo cp google-chrome-stable /usr/bin/google-chrome-stable
+#      - run: /usr/bin/google-chrome --version > /tmp/chrome/version
+#      - run: sudo cp google-chrome-stable /usr/bin/google-chrome-stable
       - run: bin/kaocha :browser-cljs
       - store_test_results:
           path: test-results
