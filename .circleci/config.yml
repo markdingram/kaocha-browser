@@ -5,7 +5,7 @@ jobs:
       - image: circleci/clojure:openjdk-11-tools-deps-node-browsers
     steps:
       - run:
-          command: /usr/bin/google-chrome-stable
+          command: /usr/bin/google-chrome-stable --no-first-run
           background: true
       - checkout
       - restore_cache:
